@@ -1,0 +1,20 @@
+.top{
+    /* 设置宽度高度背景颜色 */
+    height: auto; /*高度改为自动高度*/
+    width:100%;
+    margin-left: 0;
+    background:rgb(189, 181, 181);
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 5px;}
+
+.top container{
+    /* 清除ul标签的默认样式 */
+    width: auto;/*宽度也改为自动*/
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    /* margin-top: 0;          */
+    padding: 0;
+}

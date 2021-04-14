@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<iframe src="" name="demo" scrolling="auto" sandbox="allow-same-origin"></iframe>-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Personal Blog about coding." />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=Raleway:ital,wght@0,500;0,700;1,400;1,600&display=swap"
+		rel="stylesheet">
+	<title>Search Result</title>
+	<link rel="stylesheet" href="../static/css/result-styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../static/js/jquery-3.5.1.js"></script>
+	<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script>
+		$(function () {
+			// console.log($.cookie('name'));
+			// alert($.cookie('name'));
+			var myURL = new URL(window.location);
+			var name = new URLSearchParams(myURL.search).get('name');
+			//var name = '{{scholarName}}';
+			$.ajax({
+				url: "/getList",//要请求的服务器url
+				data: { name: name },//第一个name对应的是后端request.getParameter("name")的name、第二个name对应的是此js中的var name = $("#name").val();的name
+				async: true,//是否是异步请求
+				cache: false,//是否缓存结果
+				type: "GET",//请求方式
+				dataType: "json",//服务器返回什么类型数据 text xml javascript json(javascript对象)
+				success: function (result) {//函数会在服务器执行成功后执行，result就是服务器返回结果
+					var json = typeof result == "string" ? JSON.parse(result) : result;
+					console.log(result);
+					console.log(typeof result);
+					console.log(json);
+					console.log(typeof json);
+					// console.log("result");
+					// alert(result['name']);
+
+					$('#scholar').children().remove();
+					for (var i in result) {
+						// alert(json[i]['name']);
+						var html = "<div class=\"blog_cst_entry\" onclick='clickDiv(this)'>\n" +
+							"        <div class=\"card-tall2 intro-pic\">\n" +
+							"            <img src=\"../static/img/scientist.png\" width=\"100%\" height=auto>\n" +
+							"        </div>\n" +
+							"        <div class=\"card-wide2 intro-text\">\n" +
+							"            <h2 class='header'>" + json[i].name + "</h2>\n" +
+							"            <h3>" + json[i].position + "</h3>\n" +
+							"            <p>\n" +
+							"                My research interests include "
+						let interest = ""
+						for (var j = 0; j < json[i].interests.length; j++) {
+							if (j == json[i].interests.length - 1) {
+								interest = interest + json[i].interests[j] + "."
+							} else if (j == json[i].interests.length - 2) {
+								interest = interest + json[i].interests[j] + " and "
+							} else {
+								interest = interest + json[i].interests[j] + ", "
+							}
+
+						}
+						html = html + interest + "            </p>\n" +
+							"        </div>\n" +
+							"    </div>"
+						// var script="$(\"#scholar\"+i).click(function (){\n" +
+						//     "console.log(\"hhhhh\")\n"+
+						//     "                clickDiv("+json[i].name+");\n" +
+						//     "            })"
+						$('#scholar').append(html);
+					}
+				},
+				error: function (jqXHR, textStatus, errorThrown) {
+
+				}
+			});
+		});
+		function clickDiv(e) {
+			console.log("hhhhh");
+			// console.log(e)
+			// console.log(typeof e)
+			// console.log(e.children('.card-wide2').children('.header').text())
+			// console.log($(this).html());
+			// console.log($(this))
+			// $.cookie('clickName', $(e).find('.header').text());
+			window.location.href = "scholar?clickName=" + $(e).find('.header').text()
+			// console.log($(this).find('.header').text());
+			// console.log("clickScholar");
+			// console.log(clickScholar);
+			// var that=$(this);
+			// clickScholar=that.getElementsByTagName('h2').v;
+			// $.cookie('clickScholar',clickScholar);
+		}
+//         $('.blog_cst_entry').each(function (e) {
+//
+//             $(this).click(function () {
+//
+//                 console.log("new")
+//                 console.log(e+1);
+//
+// //console.log($(this).index() + 1);
+//
+//             });
+//
+//         });
+//         $(".blog_cst_entry").each(function(index, item) {
+//
+//             if(index == 0) {
+//                 $(this).click(function(){
+//                     alert("第一个span");
+//                 })
+//             } else if(index == 1) {
+//                 $(this).click(function(){
+//                     alert("第二个span");
+//                 })
+//
+//             }
+            //				$(this).click(function() {
+            //					console.log(this);
+            //					if(index == 0) {
+            //						alert("第一个span");
+            //					} else if(index == 1) {
+            //						alert("第二个span");
+            //					}
+            //				})
+        //
+        // });
+	</script>
+
+	<script src="../static/js/loading.js"></script>
+</head>
+
+<body>
+	<header class="header_cst">
+		<div class="container">
+			<div class="header_cst_inner">
+				<div class="header_cst_logo">
+					<!--					<a href="#">-->
+					<!--	&lt;!&ndash;					<img src="images/building.jpg" alt="School Logo">&ndash;&gt;-->
+					<!--					</a>-->
+				</div>
+				<nav class="menu_cst">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+				<!--				<div class="header_cst_contact">-->
+				<!--					<a href="https://mail.bjtu.edu.cn/">Contact me</a>-->
+				<!--				</div>-->
+				<nav class="header_cst_menu">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- <div class="top">
+		<ul>
+			<li><a href="#">h指数</a></li>
+			<li><a href="#">性别</a></li>
+			<li><a href="#">国籍</a></li>
+		</ul>
+	</div> -->
+	<div></div>
+	<div id="scholar">
+		<div class="blog_cst_entry">
+			<div class="card-tall2 intro-pic">
+				<img src="../static/img/scientist.png" width="100%" height=auto>
+			</div>
+			<div class="card-wide2 intro-text">
+				<h2>Jie Tang</h2>
+				<h3>Tsinghua University</h3>
+				<p>
+					My research interests include artificial intelligence, data mining, social networks , machine
+					learning and
+					knowledge graph, with an emphasis on designing new algorithms for mining social and knowledge
+					networks.
+				</p>
+			</div>
+		</div>
+		<div class="blog_cst_entry">
+			<div class="card-tall2 intro-pic">
+				<img src="../static/img/scientist.png" width="100%" height=auto>
+			</div>
+			<div class="card-wide2 intro-text">
+				<h2>Jie Tang</h2>
+				<h3>Tsinghua University</h3>
+				<p>
+					My research interests include artificial intelligence, data mining, social networks , machine
+					learning and
+					knowledge graph, with an emphasis on designing new algorithms for mining social and knowledge
+					networks.
+				</p>
+			</div>
+		</div>
+		<div class="blog_cst_entry">
+			<div class="card-tall2 intro-pic">
+				<img src="../static/img/scientist.png" width="100%" height=auto>
+			</div>
+			<div class="card-wide2 intro-text">
+				<h2>Jie Tang</h2>
+				<h3>Tsinghua University</h3>
+				<p>
+					My research interests include artificial intelligence, data mining, social networks , machine
+					learning and
+					knowledge graph, with an emphasis on designing new algorithms for mining social and knowledge
+					networks.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@import url(variables.css);
+@import url(header.css);
+@import url(home-grid.css);
+@import url(footer.css);
+@import url(blog_cards.css);
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.more{
+    float: right;
+    border: white 1px solid;
+    margin: 5px;
+    width: 10%;
+    text-align: center;
+}
+.predict{
+    float: right;
+    border: white 1px solid;
+    margin: 5px;
+    width: 10%;
+    text-align: center;
+}

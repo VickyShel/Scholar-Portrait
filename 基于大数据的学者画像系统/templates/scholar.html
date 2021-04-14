@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>学者关系</title>
+	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>-->
+	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+	<!-- <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-graph.min.js"></script>
+	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-radar.min.js"></script> -->
+	<!--	<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>-->
+	<link href="../static/css/header.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../static/css/variables.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../static/css/scholar-style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- 新 Bootstrap4 核心 CSS 文件 -->
+	<!--	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">-->
+	<script src="../static/js/jquery-3.5.1.js"></script>
+	<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<!--	{#-->
+	<!--	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>#}-->
+	<!--	{##}-->
+	<!--	{#-->
+	<!--	&lt;!&ndash; bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js &ndash;&gt;#}-->
+	<!--	{#-->
+	<!--	<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>#}-->
+	<!--	{##}-->
+	<!--	{#-->
+	<!--	&lt;!&ndash; 最新的 Bootstrap4 核心 JavaScript 文件 &ndash;&gt;#}-->
+	<!--	{#-->
+	<!--	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>#}-->
+	<style type="text/css">
+		.contentwrap {
+			width: 98%;
+			margin: 0 auto;
+			padding: 10px;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 20px;
+		}
+
+		ul.tab {
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 1px;
+			height: 30px;
+			line-height: 30px;
+			color: #696969;
+		}
+
+		ul.tab li {
+			float: left;
+			font-family: "微软雅黑";
+			cursor: pointer;
+			padding: 0px;
+
+
+		}
+
+		ul.tab li.li {
+			padding: 0px 25px 0px;
+			font-size: 13px;
+			height: 30px;
+			line-height: 30px;
+			background: #F4F5F9;
+			border-top: 1px solid #C5D0DC;
+			border-left: 1px solid #C5D0DC;
+			border-bottom: 1px solid #C5D0DC;
+
+		}
+
+		ul.tab li.current {
+			border-bottom: 0px;
+			border-top: 2px solid #7599DE;
+			font-size: 13px;
+			color: #343434;
+			background: #FFFFFF;
+
+		}
+
+		ul.tab li.li:last-child {
+			border-right: 1px solid #C5D0DC;
+		}
+	</style>
+	<script>
+		var result1;
+		var result2;
+		var result3;
+		$(function () {
+			//console.log($.cookie('name'));
+			// alert($.cookie('name'));
+			var myURL = new URL(window.location);
+			var name = new URLSearchParams(myURL.search).get('clickName');
+			// var name = $.cookie('clickName');
+
+			$.ajax({
+				url: "/getDetail",//要请求的服务器url
+				data: { name: name },//第一个name对应的是后端request.getParameter("name")的name、第二个name对应的是此js中的var name = $("#name").val();的name
+				async: false,//是否是异步请求
+				cache: false,//是否缓存结果
+				type: "GET",//请求方式
+				dataType: "json",//服务器返回什么类型数据 text xml javascript json(javascript对象)
+				success: function (result) {//函数会在服务器执行成功后执行，result就是服务器返回结果
+					var json = typeof result == "string" ? JSON.parse(result) : result;
+					$(".blog_cst_entry").find(".header").text(json.name);
+					$(".blog_cst_entry").find(".organization").text(json.position);
+					console.log(json.interests.length)
+					var interest = "My research interests include ";
+					for (var j = 0; j < json.interests.length; j++) {
+						if (j == json.interests.length - 1) {
+							interest = interest + json.interests[j] + ".";
+						}
+						else if (j == json.interests.length - 2) {
+							interest = interest + json.interests[j] + " and ";
+						}
+						else {
+							interest = interest + json.interests[j] + ",";
+						}
+					}
+					$(".blog_cst_entry").find(".interest").text(interest);
+					$.ajax({
+						type: "GET",
+						url: "/getRadar",
+						dataType: 'json',
+						async: false,//是否是异步请求
+						success: function (result) {
+							result1 = result;
+						}
+					});
+					$.ajax({
+						type: "GET",
+						url: "/getWordCloud",
+						dataType: 'json',
+						async: false,//是否是异步请求
+						success: function (result) {
+							result2 = result;
+						}
+					});
+					$.ajax({
+						type: "GET",
+						url: "/graphChart",
+						dataType: 'json',
+						async: false,//是否是异步请求
+						success: function (result) {
+							console.log(result)
+							result3 = result;
+						}
+					});
+
+					var chart = echarts.init(document.getElementById('graph'), 'white', { renderer: 'canvas' });
+					chart.clear();
+					chart.setOption(result1);
+				},
+				error: function (jqXHR, textStatus, errorThrown) {
+				}
+			});
+		});
+
+		function toStageInfo() {
+			console.log("1");
+			document.getElementById("li_stage").className = "li current";
+			document.getElementById("li_class").className = "li";
+			document.getElementById("li_photo").className = "li";
+			var chart = echarts.init(document.getElementById('graph'), 'white', { renderer: 'canvas' });
+			chart.clear();
+			chart.setOption(result1);
+		}
+		function toClaRecordDetail() {
+			console.log("2");
+			document.getElementById("li_stage").className = "li";
+			document.getElementById("li_class").className = "li current";
+			document.getElementById("li_photo").className = "li";
+			var chart = echarts.init(document.getElementById('graph'), 'white', { renderer: 'canvas' });
+			chart.clear();
+			chart.setOption(result2);
+		}
+		function toTrainPhoto() {
+			console.log("3");
+			document.getElementById("li_stage").className = "li";
+			document.getElementById("li_class").className = "li";
+			document.getElementById("li_photo").className = "li current";
+			var chart = echarts.init(document.getElementById('graph'), 'white', { renderer: 'canvas' });
+			console.log(result3)
+			chart.clear()
+			chart.setOption(result3);
+		}
+	</script>
+
+</head>
+
+<body>
+	<header class="header_cst">
+		<div class="container">
+			<div class="header_cst_inner">
+				<div class="header_cst_logo">
+				</div>
+				<nav class="menu_cst">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+				<nav class="header_cst_menu">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="blog_cst_entry intro" style="width: 80%">
+		<div class="card-tall2 intro-pic">
+			<img src="../static/img/scientist.png" width="100%" height=auto>
+		</div>
+		<div class="card-wide2 intro-text">
+			<div style="width: 100%">
+				<h2 class="header" style="width: 92%; float:left">Jie Tang</h2>
+				<button id="moreBt" onclick="window.location='ret' " style="width: 8%;float: right;">更多</button>
+			</div>
+			<div style="width: 100%">
+				<h3 class="organization" style="width: 92%; float:left">Tsinghua University</h3>
+				<button id="preBt" onclick="window.location='predict'" style="width: 8%;float: right;">预测</button>
+			</div>
+			<p class="interest">
+				My research interests include artificial intelligence, data mining, social networks , machine learning
+				and
+				knowledge graph, with an emphasis on designing new algorithms for mining social and knowledge networks.
+			</p>
+		</div>
+	</div>
+	<div style="background-color: #F0F0F0;width: 80%;height: 80%;margin: auto;">
+		<div class="container">
+			<div id="contentwrap" class="contentwrap">
+				<ul class="tab">
+					<li id="li_stage" class="li current" onclick="toStageInfo()"><span>雷达图</span></li>
+					<li id="li_class" class="li" onclick="toClaRecordDetail()"><span>词云图</span></li>
+					<li id="li_photo" class="li" onclick="toTrainPhoto()"><span>学者关系图</span></li>
+				</ul>
+			</div>
+			<div id="graph" class="chart-container rounded-lg" style="width:800px; height:800px;margin:auto; ">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

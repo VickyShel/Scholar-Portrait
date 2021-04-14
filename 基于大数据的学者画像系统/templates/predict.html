@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Awesome-pyecharts</title>
+	<link href="../static/css/header.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../static/css/variables.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+	<script src="../static/js/jquery-3.5.1.js"></script>
+	<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script>
+		$(function () {
+			// console.log($.cookie('name'));
+			// alert($.cookie('name'));
+			var name = $.cookie('clickName');
+			$.ajax({
+				url: "/getPredict",//要请求的服务器url
+				data: { name: name },//第一个name对应的是后端request.getParameter("name")的name、第二个name对应的是此js中的var name = $("#name").val();的name
+				async: true,//是否是异步请求
+				cache: false,//是否缓存结果
+				type: "GET",//请求方式
+				dataType: "json",//服务器返回什么类型数据 text xml javascript json(javascript对象)
+				success: function (result) {//函数会在服务器执行成功后执行，result就是服务器返回结果
+					var chart = echarts.init(document.getElementById('graph'), 'white', { renderer: 'canvas' });
+					result.backgroundColor = new echarts.graphic.LinearGradient(0, 0, 0, 1, [{ offset: 0, color: '#c86589' }, { offset: 1, color: '#06a7ff' }], false)
+					console.log(result)
+					result.series[0].areaStyle.color = new echarts.graphic.LinearGradient(0, 0, 0, 1, [{ offset: 0, color: '#eb64fb' }, { offset: 1, color: '#3fbbff' }], false)
+					// result.areaStyle = {
+					// 	"opacity": 1,
+					// 	"color": new echarts.graphic.LinearGradient(0, 0, 0, 1, [{ offset: 0, color: '#eb64fb' }, { offset: 1, color: '#3fbbff' }], false)
+					// }
+					chart.setOption(result);
+					console.log(result)
+					console.log(chart)
+				},
+				error: function (jqXHR, textStatus, errorThrown) {
+
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header class="header_cst">
+		<div class="container">
+			<div class="header_cst_inner">
+				<div class="header_cst_logo">
+					<!--					<a href="#">-->
+					<!--	&lt;!&ndash;					<img src="images/building.jpg" alt="School Logo">&ndash;&gt;-->
+					<!--					</a>-->
+				</div>
+				<nav class="menu_cst">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+				<!--				<div class="header_cst_contact">-->
+				<!--					<a href="https://mail.bjtu.edu.cn/">Contact me</a>-->
+				<!--				</div>-->
+				<nav class="header_cst_menu">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div style="background-color: #F0F0F0;width: 600px;height: 600px;margin: auto;">
+		<div id="graph" class="chart-container" style="width:600px; height:600px;margin:auto"></div>
+	</div>
+</body>
+
+</html>

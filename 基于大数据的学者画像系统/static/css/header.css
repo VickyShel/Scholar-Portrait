@@ -1,0 +1,216 @@
+@import url(variables.css);
+
+.top{
+    /* 设置宽度高度背景颜色 */
+    height: auto; /*高度改为自动高度*/
+    width:100%;
+    margin-left: 0;
+    background:rgb(189, 181, 181);
+    position: relative; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 5px;
+}
+.top ul{
+    /* 清除ul标签的默认样式 */
+    /*top:0;*/
+    left:0;
+    right: 0;
+    /*bottom: 0;*/
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    /*grid-auto-rows: 50px;*/
+}
+.top li {
+    /*float:left; !* 使li内容横向浮动，即横向排列  *!*/
+    margin-right:2%;  /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+    /*justify-content: center;*/
+}
+
+.top li a{
+    /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+}
+.top li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background-color: #111;
+}
+header.header_cst {
+    position: sticky;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /*grid-auto-rows: 80px;*/
+    /*在最前页面显示，用户能够看到，遮盖后面的内容*/
+}
+header.header_cst .header_cst_inner {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-auto-rows: 70px;
+    position: relative;
+}
+.header_cst_logo, 
+nav.menu_cst,
+/*.header_cst_contact {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+.header_cst_logo {
+    justify-content: start;
+    /*横向居中对齐*/
+    text-align: center;
+    /*垂直居中对齐*/
+}
+.header_cst_logo img {
+    max-height: 100px;
+    width: auto;
+}
+nav.menu_cst {
+    justify-content: center;
+}
+nav.menu_cst ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+nav.menu_cst ul li {
+    text-align: center;
+    padding: 0 20px;
+    /*设置左右间距*/
+}
+nav.menu_cst ul li a {
+    color: #000;
+    /*字体颜色*/
+    font-family: var(--font-custom-2);
+    /*字体类型，直接调用variable.css中的font-custom-2变量以减少代码量*/
+    font-weight: 500;
+    /*字体粗细*/
+    letter-spacing: 1px;
+    /*定义字间距*/
+    /*background-color: transparent;*/
+    /*定义背景颜色*/
+    padding: 10px 10px;
+    border-radius: 5px;
+    /*设置圆角边框*/
+    transition: background-color 0.5s,
+                color 0.1s;
+    /*定义变回此状态时背景颜色以及字体颜色产生的所需时间*/
+}
+nav.menu_cst ul li a:hover {
+    background-color: #7d7b76;
+    color: #a6a6a6;
+    transition: background-color 0.5s,
+                color 0.1s;
+    /*定义成为悬浮状态时背景颜色以及字体颜色产生的所需时间*/
+}
+/*.header_cst_contact {*/
+/*    justify-content: flex-end;*/
+/*}*/
+/*.header_cst_contact a {*/
+/*    background-color: #7d7b76;*/
+/*    color: #a6a6a6;*/
+/*    padding: 10px 20px;*/
+/*    text-decoration: none;*/
+/*    font-family: var(--font-custom-1);*/
+/*    text-transform: uppercase;*/
+/*    border-radius: 5px;*/
+/*    transition: background-color 0.2s;*/
+/*}*/
+/*.header_cst_contact a:hover {*/
+/*    background-color: #7d7b76;*/
+/*    transition: background-color 0.2s ease-in;*/
+/*}*/
+.header_cst_menu {
+    display: none;
+}
+/*HEADER END*/
+
+@media (max-width: 1300px) {
+    nav.menu_cst {
+        display: none;
+    }
+    header.header_cst .header_cst_inner { 
+        grid-template-columns: 8fr 3fr;
+    }
+    .header_cst_contact {
+        margin-right: 80px;
+    }
+    nav.header_cst_menu {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url(../img/menu_icon.svg);
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0;
+        top: calc(50% - 20px);
+        cursor: pointer;
+    }
+    nav.header_cst_menu ul {
+        visibility: hidden;
+        min-width: 200px;
+        background-color: #a6a6a6;
+        list-style: none;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px #a6a6a6;
+        transition: visibility 0.3s ease-out;
+    }
+    nav.header_cst_menu:hover ul {
+        visibility: visible;
+    }
+    nav.header_cst_menu ul li a {
+        color: #000;
+        font-family: var(--font-custom-2);
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 1.3em;
+        text-transform: uppercase;
+    }
+    nav.header_cst_menu ul li a:hover {
+        color: var(--custom-color-1);
+    }
+}
+
+
+@media (max-width: 1199px) {
+    header.header_cst .header_cst_inner {
+        grid-auto-rows: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    header.header_cst .header_cst_inner { 
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    header.header_cst .header_cst_inner {
+        grid-auto-rows: 70px;
+    }
+    nav.header_cst_menu {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .header_cst_contact {
+        display: none;
+    }
+}

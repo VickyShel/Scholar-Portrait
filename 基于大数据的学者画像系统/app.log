@@ -1,0 +1,607 @@
+[2020-11-23 11:21:56 +0800] [1024] [INFO] Starting gunicorn 20.0.4
+[2020-11-23 11:21:56 +0800] [1024] [INFO] Listening at: http://0.0.0.0:5000 (1024)
+[2020-11-23 11:21:56 +0800] [1024] [INFO] Using worker: sync
+[2020-11-23 11:21:56 +0800] [1027] [INFO] Booting worker with pid: 1027
+[2020-11-23 11:28:12 +0800] [1024] [CRITICAL] WORKER TIMEOUT (pid:1027)
+[2020-11-23 11:28:12 +0800] [1027] [INFO] Worker exiting (pid: 1027)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-11-23 11:28:13 +0800] [1039] [INFO] Booting worker with pid: 1039
+[2020-11-23 11:28:43 +0800] [1024] [CRITICAL] WORKER TIMEOUT (pid:1039)
+[2020-11-23 11:28:43 +0800] [1039] [INFO] Worker exiting (pid: 1039)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-11-23 11:28:43 +0800] [1040] [INFO] Booting worker with pid: 1040
+[2020-11-23 16:21:48 +0800] [1024] [INFO] Handling signal: term
+[2020-11-23 16:21:48 +0800] [1040] [INFO] Worker exiting (pid: 1040)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-11-23 16:21:48 +0800] [1024] [INFO] Shutting down: Master
+[2020-11-23 16:21:49 +0800] [1387] [INFO] Starting gunicorn 20.0.4
+[2020-11-23 16:21:49 +0800] [1387] [INFO] Listening at: http://0.0.0.0:5000 (1387)
+[2020-11-23 16:21:49 +0800] [1387] [INFO] Using worker: sync
+[2020-11-23 16:21:49 +0800] [1390] [INFO] Booting worker with pid: 1390
+[2020-11-25 11:58:24 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:1390)
+[2020-11-25 11:58:24 +0800] [1390] [INFO] Worker exiting (pid: 1390)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-11-25 11:58:24 +0800] [4102] [INFO] Booting worker with pid: 4102
+[2020-11-26 14:18:39 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:4102)
+[2020-11-26 14:18:39 +0800] [4102] [INFO] Worker exiting (pid: 4102)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-11-26 14:18:39 +0800] [5714] [INFO] Booting worker with pid: 5714
+[2020-11-26 14:18:39 +0800] [5714] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-11-27 01:51:00 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:5714)
+[2020-11-27 01:51:00 +0800] [5714] [INFO] Worker exiting (pid: 5714)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-11-27 01:51:00 +0800] [6337] [INFO] Booting worker with pid: 6337
+[2020-11-27 06:17:11 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:6337)
+[2020-11-27 06:17:11 +0800] [6337] [INFO] Worker exiting (pid: 6337)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-11-27 06:17:11 +0800] [6597] [INFO] Booting worker with pid: 6597
+[2020-12-01 04:07:55 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:6597)
+[2020-12-01 04:07:55 +0800] [6597] [INFO] Worker exiting (pid: 6597)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-01 04:07:56 +0800] [11730] [INFO] Booting worker with pid: 11730
+[2020-12-01 09:52:42 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:11730)
+[2020-12-01 09:52:42 +0800] [11730] [INFO] Worker exiting (pid: 11730)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-01 09:52:42 +0800] [12109] [INFO] Booting worker with pid: 12109
+[2020-12-03 10:47:07 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:12109)
+[2020-12-03 10:47:07 +0800] [12109] [INFO] Worker exiting (pid: 12109)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-03 10:47:07 +0800] [14820] [INFO] Booting worker with pid: 14820
+[2020-12-03 12:28:30 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:14820)
+[2020-12-03 12:28:30 +0800] [14820] [INFO] Worker exiting (pid: 14820)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-03 12:28:30 +0800] [14910] [INFO] Booting worker with pid: 14910
+[2020-12-05 14:50:08 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:14910)
+[2020-12-05 14:50:08 +0800] [14910] [INFO] Worker exiting (pid: 14910)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-05 14:50:08 +0800] [17663] [INFO] Booting worker with pid: 17663
+[2020-12-05 14:50:08 +0800] [17663] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-12-07 03:22:53 +0800] [1387] [CRITICAL] WORKER TIMEOUT (pid:17663)
+[2020-12-07 03:22:53 +0800] [17663] [INFO] Worker exiting (pid: 17663)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-07 03:22:53 +0800] [19638] [INFO] Booting worker with pid: 19638
+[2020-12-08 21:22:04 +0800] [696] [INFO] Starting gunicorn 20.0.4
+[2020-12-08 21:22:04 +0800] [696] [INFO] Listening at: http://0.0.0.0:5000 (696)
+[2020-12-08 21:22:04 +0800] [696] [INFO] Using worker: sync
+[2020-12-08 21:22:04 +0800] [721] [INFO] Booting worker with pid: 721
+[2020-12-09 00:16:58 +0800] [695] [INFO] Starting gunicorn 20.0.4
+[2020-12-09 00:16:58 +0800] [695] [INFO] Listening at: http://0.0.0.0:5000 (695)
+[2020-12-09 00:16:58 +0800] [695] [INFO] Using worker: sync
+[2020-12-09 00:16:58 +0800] [719] [INFO] Booting worker with pid: 719
+[2020-12-11 10:17:25 +0800] [747] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 10:17:25 +0800] [747] [INFO] Listening at: http://0.0.0.0:5000 (747)
+[2020-12-11 10:17:25 +0800] [747] [INFO] Using worker: sync
+[2020-12-11 10:17:25 +0800] [753] [INFO] Booting worker with pid: 753
+[2020-12-11 14:28:37 +0800] [736] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 14:28:37 +0800] [736] [INFO] Listening at: http://0.0.0.0:5000 (736)
+[2020-12-11 14:28:37 +0800] [736] [INFO] Using worker: sync
+[2020-12-11 14:28:37 +0800] [743] [INFO] Booting worker with pid: 743
+[2020-12-13 00:06:07 +0800] [736] [CRITICAL] WORKER TIMEOUT (pid:743)
+[2020-12-13 00:06:07 +0800] [743] [INFO] Worker exiting (pid: 743)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-13 00:06:07 +0800] [2578] [INFO] Booting worker with pid: 2578
+[2020-12-15 17:54:40 +0800] [736] [CRITICAL] WORKER TIMEOUT (pid:2578)
+[2020-12-15 17:54:40 +0800] [2578] [INFO] Worker exiting (pid: 2578)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-15 17:54:40 +0800] [6223] [INFO] Booting worker with pid: 6223
+[2020-12-15 21:56:49 +0800] [736] [CRITICAL] WORKER TIMEOUT (pid:6223)
+[2020-12-15 21:56:49 +0800] [6223] [INFO] Worker exiting (pid: 6223)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-15 21:56:49 +0800] [6887] [INFO] Booting worker with pid: 6887
+[2020-12-17 18:54:39 +0800] [736] [INFO] Handling signal: term
+[2020-12-17 18:54:39 +0800] [6887] [INFO] Worker exiting (pid: 6887)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-17 18:54:39 +0800] [736] [INFO] Shutting down: Master
+[2020-12-17 18:54:41 +0800] [9752] [INFO] Starting gunicorn 20.0.4
+[2020-12-17 18:54:41 +0800] [9752] [INFO] Listening at: http://0.0.0.0:5000 (9752)
+[2020-12-17 18:54:41 +0800] [9752] [INFO] Using worker: sync
+[2020-12-17 18:54:41 +0800] [9758] [INFO] Booting worker with pid: 9758
+[2020-12-17 19:08:39 +0800] [9752] [INFO] Handling signal: term
+[2020-12-17 19:08:39 +0800] [9758] [INFO] Worker exiting (pid: 9758)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-17 19:08:39 +0800] [9752] [INFO] Shutting down: Master
+[2020-12-17 19:13:48 +0800] [11478] [INFO] Starting gunicorn 20.0.4
+[2020-12-17 19:13:48 +0800] [11478] [INFO] Listening at: http://0.0.0.0:5000 (11478)
+[2020-12-17 19:13:48 +0800] [11478] [INFO] Using worker: sync
+[2020-12-17 19:13:48 +0800] [11481] [INFO] Booting worker with pid: 11481
+[2020-12-17 20:06:51 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:11481)
+[2020-12-17 20:06:51 +0800] [11481] [INFO] Worker exiting (pid: 11481)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-17 20:06:51 +0800] [11860] [INFO] Booting worker with pid: 11860
+[2020-12-19 20:21:42 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:11860)
+[2020-12-19 20:21:42 +0800] [11860] [INFO] Worker exiting (pid: 11860)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-19 20:21:42 +0800] [15261] [INFO] Booting worker with pid: 15261
+[2020-12-19 20:21:42 +0800] [15261] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2020-12-23 01:50:36 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15261)
+[2020-12-23 01:50:36 +0800] [15261] [INFO] Worker exiting (pid: 15261)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-23 01:50:36 +0800] [19346] [INFO] Booting worker with pid: 19346
+[2020-12-24 06:56:59 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:19346)
+[2020-12-24 06:56:59 +0800] [19346] [INFO] Worker exiting (pid: 19346)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2020-12-24 06:56:59 +0800] [21044] [INFO] Booting worker with pid: 21044
+[2021-01-05 00:40:58 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:21044)
+[2021-01-05 00:40:58 +0800] [21044] [INFO] Worker exiting (pid: 21044)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-05 00:40:58 +0800] [4157] [INFO] Booting worker with pid: 4157
+[2021-01-06 13:36:14 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:4157)
+[2021-01-06 13:36:14 +0800] [4157] [INFO] Worker exiting (pid: 4157)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-06 13:36:14 +0800] [10693] [INFO] Booting worker with pid: 10693
+[2021-01-06 17:33:16 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:10693)
+[2021-01-06 17:33:16 +0800] [10693] [INFO] Worker exiting (pid: 10693)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-06 17:33:16 +0800] [10919] [INFO] Booting worker with pid: 10919
+[2021-01-10 14:05:41 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:10919)
+[2021-01-10 14:05:41 +0800] [10919] [INFO] Worker exiting (pid: 10919)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-10 14:05:41 +0800] [15965] [INFO] Booting worker with pid: 15965
+[2021-01-10 14:07:19 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15965)
+[2021-01-10 14:07:19 +0800] [15965] [INFO] Worker exiting (pid: 15965)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-10 14:07:19 +0800] [15966] [INFO] Booting worker with pid: 15966
+[2021-01-10 14:08:56 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15966)
+[2021-01-10 14:08:56 +0800] [15966] [INFO] Worker exiting (pid: 15966)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-10 14:08:56 +0800] [15967] [INFO] Booting worker with pid: 15967
+[2021-01-10 14:10:39 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15967)
+[2021-01-10 14:10:39 +0800] [15967] [INFO] Worker exiting (pid: 15967)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-10 14:10:39 +0800] [15969] [INFO] Booting worker with pid: 15969
+[2021-01-10 14:12:08 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15969)
+[2021-01-10 14:12:08 +0800] [15969] [INFO] Worker exiting (pid: 15969)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-10 14:12:08 +0800] [15971] [INFO] Booting worker with pid: 15971
+[2021-01-13 18:11:20 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15971)
+[2021-01-13 18:11:20 +0800] [15971] [INFO] Worker exiting (pid: 15971)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-13 18:11:20 +0800] [20205] [INFO] Booting worker with pid: 20205
+[2021-01-16 10:10:39 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:20205)
+[2021-01-16 10:10:39 +0800] [20205] [INFO] Worker exiting (pid: 20205)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-16 10:10:39 +0800] [23342] [INFO] Booting worker with pid: 23342
+[2021-01-18 11:33:57 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:23342)
+[2021-01-18 11:33:57 +0800] [23342] [INFO] Worker exiting (pid: 23342)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-18 11:33:57 +0800] [25809] [INFO] Booting worker with pid: 25809
+[2021-01-19 23:42:51 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:25809)
+[2021-01-19 23:42:51 +0800] [25809] [INFO] Worker exiting (pid: 25809)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-19 23:42:51 +0800] [27515] [INFO] Booting worker with pid: 27515
+[2021-01-20 13:24:16 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:27515)
+[2021-01-20 13:24:16 +0800] [27515] [INFO] Worker exiting (pid: 27515)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-20 13:24:16 +0800] [28136] [INFO] Booting worker with pid: 28136
+[2021-01-20 13:24:16 +0800] [28136] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2021-01-28 17:46:49 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:28136)
+[2021-01-28 17:46:49 +0800] [28136] [INFO] Worker exiting (pid: 28136)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-28 17:46:49 +0800] [5361] [INFO] Booting worker with pid: 5361
+[2021-01-29 04:53:36 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:5361)
+[2021-01-29 04:53:36 +0800] [5361] [INFO] Worker exiting (pid: 5361)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-29 04:53:36 +0800] [5842] [INFO] Booting worker with pid: 5842
+[2021-01-30 03:28:56 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:5842)
+[2021-01-30 03:28:56 +0800] [5842] [INFO] Worker exiting (pid: 5842)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-30 03:28:56 +0800] [7009] [INFO] Booting worker with pid: 7009
+[2021-01-31 23:18:54 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:7009)
+[2021-01-31 23:18:54 +0800] [7009] [INFO] Worker exiting (pid: 7009)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-01-31 23:18:54 +0800] [9532] [INFO] Booting worker with pid: 9532
+[2021-02-02 20:04:12 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:9532)
+[2021-02-02 20:04:12 +0800] [9532] [INFO] Worker exiting (pid: 9532)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-02 20:04:12 +0800] [11835] [INFO] Booting worker with pid: 11835
+[2021-02-05 23:58:45 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:11835)
+[2021-02-05 23:58:45 +0800] [11835] [INFO] Worker exiting (pid: 11835)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-05 23:58:45 +0800] [15576] [INFO] Booting worker with pid: 15576
+[2021-02-05 23:58:46 +0800] [15576] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2021-02-05 23:59:17 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15576)
+[2021-02-05 23:59:17 +0800] [15576] [INFO] Worker exiting (pid: 15576)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-05 23:59:17 +0800] [15580] [INFO] Booting worker with pid: 15580
+[2021-02-07 06:51:05 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:15580)
+[2021-02-07 06:51:05 +0800] [15580] [INFO] Worker exiting (pid: 15580)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-07 06:51:05 +0800] [17168] [INFO] Booting worker with pid: 17168
+[2021-02-11 14:18:07 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:17168)
+[2021-02-11 14:18:07 +0800] [17168] [INFO] Worker exiting (pid: 17168)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-11 14:18:07 +0800] [22549] [INFO] Booting worker with pid: 22549
+[2021-02-13 23:00:38 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:22549)
+[2021-02-13 23:00:38 +0800] [22549] [INFO] Worker exiting (pid: 22549)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-13 23:00:38 +0800] [25826] [INFO] Booting worker with pid: 25826
+[2021-02-13 23:00:38 +0800] [25826] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2021-02-16 16:35:03 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:25826)
+[2021-02-16 16:35:03 +0800] [25826] [INFO] Worker exiting (pid: 25826)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-16 16:35:03 +0800] [29155] [INFO] Booting worker with pid: 29155
+[2021-02-16 16:35:03 +0800] [29155] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2021-02-19 13:41:37 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:29155)
+[2021-02-19 13:41:37 +0800] [29155] [INFO] Worker exiting (pid: 29155)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-19 13:41:37 +0800] [11877] [INFO] Booting worker with pid: 11877
+[2021-02-21 06:21:04 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:11877)
+[2021-02-21 06:21:04 +0800] [11877] [INFO] Worker exiting (pid: 11877)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-21 06:21:04 +0800] [8364] [INFO] Booting worker with pid: 8364
+[2021-02-25 00:28:18 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:8364)
+[2021-02-25 00:28:18 +0800] [8364] [INFO] Worker exiting (pid: 8364)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-25 00:28:18 +0800] [19862] [INFO] Booting worker with pid: 19862
+[2021-02-28 17:12:42 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:19862)
+[2021-02-28 17:12:42 +0800] [19862] [INFO] Worker exiting (pid: 19862)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-02-28 17:12:42 +0800] [24484] [INFO] Booting worker with pid: 24484
+[2021-03-01 17:19:04 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:24484)
+[2021-03-01 17:19:04 +0800] [24484] [INFO] Worker exiting (pid: 24484)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-01 17:19:04 +0800] [25874] [INFO] Booting worker with pid: 25874
+[2021-03-02 06:07:49 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:25874)
+[2021-03-02 06:07:49 +0800] [25874] [INFO] Worker exiting (pid: 25874)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-02 06:07:49 +0800] [26452] [INFO] Booting worker with pid: 26452
+[2021-03-03 23:20:11 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:26452)
+[2021-03-03 23:20:11 +0800] [26452] [INFO] Worker exiting (pid: 26452)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-03 23:20:11 +0800] [28870] [INFO] Booting worker with pid: 28870
+[2021-03-06 07:37:15 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:28870)
+[2021-03-06 07:37:15 +0800] [28870] [INFO] Worker exiting (pid: 28870)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-06 07:37:15 +0800] [31758] [INFO] Booting worker with pid: 31758
+[2021-03-06 15:27:10 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:31758)
+[2021-03-06 15:27:10 +0800] [31758] [INFO] Worker exiting (pid: 31758)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-06 15:27:10 +0800] [32095] [INFO] Booting worker with pid: 32095
+[2021-03-06 15:27:11 +0800] [32095] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2021-03-08 23:45:40 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:32095)
+[2021-03-08 23:45:40 +0800] [32095] [INFO] Worker exiting (pid: 32095)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-08 23:45:40 +0800] [2547] [INFO] Booting worker with pid: 2547
+[2021-03-17 11:32:12 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:2547)
+[2021-03-17 11:32:12 +0800] [2547] [INFO] Worker exiting (pid: 2547)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-17 11:32:12 +0800] [13017] [INFO] Booting worker with pid: 13017
+[2021-03-21 05:53:48 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:13017)
+[2021-03-21 05:53:48 +0800] [13017] [INFO] Worker exiting (pid: 13017)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-21 05:53:48 +0800] [17756] [INFO] Booting worker with pid: 17756
+[2021-03-23 11:18:07 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:17756)
+[2021-03-23 11:18:07 +0800] [17756] [INFO] Worker exiting (pid: 17756)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-23 11:18:07 +0800] [21066] [INFO] Booting worker with pid: 21066
+[2021-03-23 23:16:01 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:21066)
+[2021-03-23 23:16:01 +0800] [21066] [INFO] Worker exiting (pid: 21066)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-23 23:16:01 +0800] [21579] [INFO] Booting worker with pid: 21579
+[2021-03-27 02:33:40 +0800] [11478] [CRITICAL] WORKER TIMEOUT (pid:21579)
+[2021-03-27 02:33:40 +0800] [21579] [INFO] Worker exiting (pid: 21579)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-03-27 02:33:40 +0800] [14443] [INFO] Booting worker with pid: 14443
+[2021-04-01 15:54:48 +0800] [11478] [INFO] Handling signal: term
+[2021-04-01 15:54:48 +0800] [14443] [INFO] Worker exiting (pid: 14443)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-01 15:54:48 +0800] [11478] [INFO] Shutting down: Master
+[2021-04-06 15:42:32 +0800] [714] [INFO] Starting gunicorn 20.0.4
+[2021-04-06 15:42:32 +0800] [714] [INFO] Listening at: http://0.0.0.0:5000 (714)
+[2021-04-06 15:42:32 +0800] [714] [INFO] Using worker: sync
+[2021-04-06 15:42:32 +0800] [722] [INFO] Booting worker with pid: 722
+[2021-04-07 23:19:44 +0800] [714] [CRITICAL] WORKER TIMEOUT (pid:722)
+[2021-04-07 23:19:44 +0800] [722] [INFO] Worker exiting (pid: 722)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-07 23:19:44 +0800] [26120] [INFO] Booting worker with pid: 26120
+[2021-04-07 23:19:44 +0800] [26120] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 186, in __init__
+    super().__init__(cfg, unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 53, in __init__
+    unused = self.parse(self.unreader)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 235, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/gunicorn/http/message.py", line 73, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+OSError: [Errno 107] Transport endpoint is not connected
+[2021-04-12 10:17:51 +0800] [714] [INFO] Handling signal: term
+[2021-04-12 10:17:51 +0800] [26120] [INFO] Worker exiting (pid: 26120)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+None
+
+
+None
+
+None
+
+None
+None
+
+None
+
+None
+
+[2021-04-12 10:17:53 +0800] [714] [INFO] Shutting down: Master
+[2021-04-12 10:17:54 +0800] [12991] [INFO] Starting gunicorn 20.0.4
+[2021-04-12 10:17:54 +0800] [12991] [INFO] Listening at: http://0.0.0.0:5000 (12991)
+[2021-04-12 10:17:54 +0800] [12991] [INFO] Using worker: sync
+[2021-04-12 10:17:54 +0800] [12994] [INFO] Booting worker with pid: 12994
+[2021-04-12 10:17:55 +0800] [12991] [INFO] Handling signal: term
+[2021-04-12 10:17:55 +0800] [12994] [INFO] Worker exiting (pid: 12994)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:17:56 +0800] [12991] [INFO] Shutting down: Master
+[2021-04-12 10:17:59 +0800] [13001] [INFO] Starting gunicorn 20.0.4
+[2021-04-12 10:17:59 +0800] [13001] [INFO] Listening at: http://0.0.0.0:5000 (13001)
+[2021-04-12 10:17:59 +0800] [13001] [INFO] Using worker: sync
+[2021-04-12 10:17:59 +0800] [13004] [INFO] Booting worker with pid: 13004
+[2021-04-12 10:21:36 +0800] [13001] [CRITICAL] WORKER TIMEOUT (pid:13004)
+[2021-04-12 10:21:36 +0800] [13004] [INFO] Worker exiting (pid: 13004)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:21:37 +0800] [13324] [INFO] Booting worker with pid: 13324
+[2021-04-12 10:22:08 +0800] [13001] [CRITICAL] WORKER TIMEOUT (pid:13324)
+[2021-04-12 10:22:08 +0800] [13324] [INFO] Worker exiting (pid: 13324)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:22:08 +0800] [13374] [INFO] Booting worker with pid: 13374
+[2021-04-12 10:30:24 +0800] [13001] [INFO] Handling signal: term
+[2021-04-12 10:30:24 +0800] [13374] [INFO] Worker exiting (pid: 13374)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:30:25 +0800] [13001] [INFO] Shutting down: Master
+[2021-04-12 10:30:26 +0800] [14117] [INFO] Starting gunicorn 20.0.4
+[2021-04-12 10:30:26 +0800] [14117] [INFO] Listening at: http://0.0.0.0:5000 (14117)
+[2021-04-12 10:30:26 +0800] [14117] [INFO] Using worker: sync
+[2021-04-12 10:30:26 +0800] [14120] [INFO] Booting worker with pid: 14120
+[2021-04-12 10:31:41 +0800] [14117] [INFO] Handling signal: term
+[2021-04-12 10:31:41 +0800] [14120] [INFO] Worker exiting (pid: 14120)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:31:42 +0800] [14117] [INFO] Shutting down: Master
+[2021-04-12 10:31:43 +0800] [14236] [INFO] Starting gunicorn 20.0.4
+[2021-04-12 10:31:43 +0800] [14236] [INFO] Listening at: http://0.0.0.0:5000 (14236)
+[2021-04-12 10:31:43 +0800] [14236] [INFO] Using worker: sync
+[2021-04-12 10:31:43 +0800] [14239] [INFO] Booting worker with pid: 14239
+[2021-04-12 10:32:21 +0800] [14236] [CRITICAL] WORKER TIMEOUT (pid:14239)
+[2021-04-12 10:32:21 +0800] [14239] [INFO] Worker exiting (pid: 14239)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:32:21 +0800] [14336] [INFO] Booting worker with pid: 14336
+[2021-04-12 10:49:40 +0800] [14236] [CRITICAL] WORKER TIMEOUT (pid:14336)
+[2021-04-12 10:49:40 +0800] [14336] [INFO] Worker exiting (pid: 14336)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:49:41 +0800] [16693] [INFO] Booting worker with pid: 16693
+[2021-04-12 10:50:13 +0800] [14236] [CRITICAL] WORKER TIMEOUT (pid:16693)
+[2021-04-12 10:50:13 +0800] [16693] [INFO] Worker exiting (pid: 16693)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 10:50:13 +0800] [16771] [INFO] Booting worker with pid: 16771
+[2021-04-12 11:01:15 +0800] [14236] [CRITICAL] WORKER TIMEOUT (pid:16771)
+[2021-04-12 11:01:15 +0800] [16771] [INFO] Worker exiting (pid: 16771)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 11:01:15 +0800] [17858] [INFO] Booting worker with pid: 17858
+[2021-04-12 11:01:46 +0800] [14236] [CRITICAL] WORKER TIMEOUT (pid:17858)
+[2021-04-12 11:01:46 +0800] [17858] [INFO] Worker exiting (pid: 17858)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 11:01:46 +0800] [17909] [INFO] Booting worker with pid: 17909
+[2021-04-12 11:11:07 +0800] [14236] [INFO] Handling signal: term
+[2021-04-12 11:11:07 +0800] [17909] [INFO] Worker exiting (pid: 17909)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 11:11:07 +0800] [14236] [INFO] Shutting down: Master
+[2021-04-12 16:26:47 +0800] [15775] [INFO] Starting gunicorn 20.0.4
+[2021-04-12 16:26:47 +0800] [15775] [INFO] Listening at: http://0.0.0.0:5000 (15775)
+[2021-04-12 16:26:47 +0800] [15775] [INFO] Using worker: sync
+[2021-04-12 16:26:47 +0800] [15778] [INFO] Booting worker with pid: 15778
+[2021-04-12 16:29:10 +0800] [15775] [CRITICAL] WORKER TIMEOUT (pid:15778)
+[2021-04-12 16:29:10 +0800] [15778] [INFO] Worker exiting (pid: 15778)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 16:29:11 +0800] [15922] [INFO] Booting worker with pid: 15922
+[2021-04-12 16:29:42 +0800] [15775] [CRITICAL] WORKER TIMEOUT (pid:15922)
+[2021-04-12 16:29:42 +0800] [15922] [INFO] Worker exiting (pid: 15922)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 16:29:42 +0800] [15971] [INFO] Booting worker with pid: 15971
+[2021-04-12 16:32:28 +0800] [15775] [CRITICAL] WORKER TIMEOUT (pid:15971)
+[2021-04-12 16:32:28 +0800] [15971] [INFO] Worker exiting (pid: 15971)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 16:32:29 +0800] [16245] [INFO] Booting worker with pid: 16245
+[2021-04-12 23:18:27 +0800] [15775] [CRITICAL] WORKER TIMEOUT (pid:16245)
+[2021-04-12 23:18:27 +0800] [16245] [INFO] Worker exiting (pid: 16245)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 23:18:27 +0800] [16718] [INFO] Booting worker with pid: 16718
+[2021-04-12 23:18:58 +0800] [15775] [CRITICAL] WORKER TIMEOUT (pid:16718)
+[2021-04-12 23:18:58 +0800] [16718] [INFO] Worker exiting (pid: 16718)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-12 23:18:58 +0800] [16720] [INFO] Booting worker with pid: 16720
+[2021-04-13 08:10:21 +0800] [15775] [CRITICAL] WORKER TIMEOUT (pid:16720)
+[2021-04-13 08:10:21 +0800] [16720] [INFO] Worker exiting (pid: 16720)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-13 08:10:22 +0800] [17651] [INFO] Booting worker with pid: 17651
+[2021-04-13 08:10:54 +0800] [15775] [CRITICAL] WORKER TIMEOUT (pid:17651)
+[2021-04-13 08:10:54 +0800] [17651] [INFO] Worker exiting (pid: 17651)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-13 08:10:54 +0800] [17721] [INFO] Booting worker with pid: 17721
+[2021-04-13 08:12:38 +0800] [15775] [INFO] Handling signal: term
+[2021-04-13 08:12:38 +0800] [17721] [INFO] Worker exiting (pid: 17721)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-13 08:12:38 +0800] [15775] [INFO] Shutting down: Master
+[2021-04-13 08:12:40 +0800] [17886] [INFO] Starting gunicorn 20.0.4
+[2021-04-13 08:12:40 +0800] [17886] [INFO] Listening at: http://0.0.0.0:5000 (17886)
+[2021-04-13 08:12:40 +0800] [17886] [INFO] Using worker: sync
+[2021-04-13 08:12:40 +0800] [17889] [INFO] Booting worker with pid: 17889
+[2021-04-13 08:19:50 +0800] [17886] [INFO] Handling signal: term
+[2021-04-13 08:19:50 +0800] [17889] [INFO] Worker exiting (pid: 17889)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-13 08:19:50 +0800] [17886] [INFO] Shutting down: Master
+[2021-04-13 08:19:51 +0800] [19268] [INFO] Starting gunicorn 20.0.4
+[2021-04-13 08:19:51 +0800] [19268] [INFO] Listening at: http://0.0.0.0:5000 (19268)
+[2021-04-13 08:19:51 +0800] [19268] [INFO] Using worker: sync
+[2021-04-13 08:19:51 +0800] [19271] [INFO] Booting worker with pid: 19271
+[2021-04-13 08:21:21 +0800] [19268] [INFO] Handling signal: term
+[2021-04-13 08:21:21 +0800] [19271] [INFO] Worker exiting (pid: 19271)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+[2021-04-13 08:21:21 +0800] [19268] [INFO] Shutting down: Master
+[2021-04-13 08:45:54 +0800] [24335] [INFO] Starting gunicorn 20.0.4
+[2021-04-13 08:45:54 +0800] [24335] [INFO] Listening at: http://0.0.0.0:5000 (24335)
+[2021-04-13 08:45:54 +0800] [24335] [INFO] Using worker: sync
+[2021-04-13 08:45:54 +0800] [24338] [INFO] Booting worker with pid: 24338
+[2021-04-13 08:47:07 +0800] [24335] [CRITICAL] WORKER TIMEOUT (pid:24338)
+[2021-04-13 08:47:07 +0800] [24338] [INFO] Worker exiting (pid: 24338)
+Database version : 5.7.32-0ubuntu0.18.04.1 
+((5627, 'Hendrik Zender', 2010, 63, 315, 1, 0.894318, 9), (5628, 'Hendrik Zender', 2011, 63, 315, 50, 0.894318, 9), (5629, 'Hendrik Zender', 2012, 63, 315, 50, 0.894318, 9), (5630, 'Hendrik Zender', 2013, 69, 346, 50, 0.804886, 9), (5631, 'Hendrik Zender', 2014, 89, 449, 50, 0.56342, 11), (5632, 'Hendrik Zender', 2015, 115, 583, 50, 0.394394, 14), (5633, 'Hendrik Zender', 2016, 149, 757, 50, 0.276076, 18), (5634, 'Hendrik Zender', 2017, 193, 984, 50, 0.193253, 23), (5635, 'Hendrik Zender', 2018, 231, 1180, 50, 0.154603, 27), (5636, 'Hendrik Zender', 2019, 300, 1534, 50, 0.108222, 35), (5637, 'Hendrik Zender', 2020, 390, 1994, 50, 0.0757552, 45), (5638, 'Hendrik Zender', 2021, 429, 2193, 50, 0.0681797, 49))
+((5627, 'Hendrik Zender', 2010, 63, 315, 1, 0.894318, 9), (5628, 'Hendrik Zender', 2011, 63, 315, 50, 0.894318, 9), (5629, 'Hendrik Zender', 2012, 63, 315, 50, 0.894318, 9), (5630, 'Hendrik Zender', 2013, 69, 346, 50, 0.804886, 9), (5631, 'Hendrik Zender', 2014, 89, 449, 50, 0.56342, 11), (5632, 'Hendrik Zender', 2015, 115, 583, 50, 0.394394, 14), (5633, 'Hendrik Zender', 2016, 149, 757, 50, 0.276076, 18), (5634, 'Hendrik Zender', 2017, 193, 984, 50, 0.193253, 23), (5635, 'Hendrik Zender', 2018, 231, 1180, 50, 0.154603, 27), (5636, 'Hendrik Zender', 2019, 300, 1534, 50, 0.108222, 35), (5637, 'Hendrik Zender', 2020, 390, 1994, 50, 0.0757552, 45), (5638, 'Hendrik Zender', 2021, 429, 2193, 50, 0.0681797, 49))
+[[390, 1994, 50, 0.0757552, 45]]
+[({'id': '53f42e5fdabfaee2a1c8951a', 'name': 'Peter Bernus', 'name_zh': '', 'position': 'Researcher', 'h_index': 17, 'interests': "['Enterprise Integration', 'Information Systems Management', 'Reference Model', 'Enterprise Architecture', 'Reference Architecture', 'Enterprise Modelling', 'Information Systems', 'Business Process', 'Enterprise Engineering', 'Virtual Enterprise']"}, 0.916), ({'id': '53f42d70dabfaeb1a7b8bc11', 'name': 'Sundus Kubba', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 3, 'interests': "['Frequency Drift', 'Standard Logic Cmos Process', 'Piezoelectric Res- Onator Oscillators', 'Voltage-controlled Oscillators Vcos.', 'Prototype Frequency Source', 'Cmos Process', 'Index Terms—clocks', '25-mhz Self-referenced Solid-state Frequency', 'Ppm Frequency Inaccuracy', 'Frequency Source']"}, 0.887), ({'id': '53f42c2cdabfaedd74d24867', 'name': 'Hendrik Zender', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 13, 'interests': "['Mobile Robot', 'Computer And Information Science', 'Mobile Robots', 'Large-scale Space', 'Robotic Assistant', 'Cognitive Robotics', 'Object Recognition', 'Integrable System', 'Indoor Environment', 'Knowledge Base']"}, 0.32402677117408013), ({'id': '53f42e62dabfaeb2acff72e3', 'name': 'M Goldacre', 'name_zh': '', 'position': 'Reader', 'h_index': 11, 'interests': "['Elective Surgery', 'Drug Therapy', 'Hospital Admission', 'Inpatient Care', 'Risk Factors', 'Palliative Care', 'Coronary Heart Disease', 'Cardiovascular Risk', 'Psychiatric Disorders', 'General Practitioners']"}, 0.24), ({'id': '53f441eadabfaee43ec6f7d1', 'name': 'Geert-Jan M. Kruijff', 'name_zh': '', 'position': 'Senior Researcher', 'h_index': 24, 'interests': "['Human Robot Interaction', 'Mobile Robot', 'Mobile Robots', 'Human-robot Interaction', 'Combinatory Categorial Grammar', 'Robots', 'Cognitive Robotics', 'Computer And Information Science', 'Natural Language', 'Categorial Grammar']"}, 0.03699071743818073)]
+5
+0 ({'id': '53f42e5fdabfaee2a1c8951a', 'name': 'Peter Bernus', 'name_zh': '', 'position': 'Researcher', 'h_index': 17, 'interests': "['Enterprise Integration', 'Information Systems Management', 'Reference Model', 'Enterprise Architecture', 'Reference Architecture', 'Enterprise Modelling', 'Information Systems', 'Business Process', 'Enterprise Engineering', 'Virtual Enterprise']"}, 0.916)
+1 ({'id': '53f42d70dabfaeb1a7b8bc11', 'name': 'Sundus Kubba', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 3, 'interests': "['Frequency Drift', 'Standard Logic Cmos Process', 'Piezoelectric Res- Onator Oscillators', 'Voltage-controlled Oscillators Vcos.', 'Prototype Frequency Source', 'Cmos Process', 'Index Terms—clocks', '25-mhz Self-referenced Solid-state Frequency', 'Ppm Frequency Inaccuracy', 'Frequency Source']"}, 0.887)
+2 ({'id': '53f42c2cdabfaedd74d24867', 'name': 'Hendrik Zender', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 13, 'interests': "['Mobile Robot', 'Computer And Information Science', 'Mobile Robots', 'Large-scale Space', 'Robotic Assistant', 'Cognitive Robotics', 'Object Recognition', 'Integrable System', 'Indoor Environment', 'Knowledge Base']"}, 0.32402677117408013)
+3 ({'id': '53f42e62dabfaeb2acff72e3', 'name': 'M Goldacre', 'name_zh': '', 'position': 'Reader', 'h_index': 11, 'interests': "['Elective Surgery', 'Drug Therapy', 'Hospital Admission', 'Inpatient Care', 'Risk Factors', 'Palliative Care', 'Coronary Heart Disease', 'Cardiovascular Risk', 'Psychiatric Disorders', 'General Practitioners']"}, 0.24)
+4 ({'id': '53f441eadabfaee43ec6f7d1', 'name': 'Geert-Jan M. Kruijff', 'name_zh': '', 'position': 'Senior Researcher', 'h_index': 24, 'interests': "['Human Robot Interaction', 'Mobile Robot', 'Mobile Robots', 'Human-robot Interaction', 'Combinatory Categorial Grammar', 'Robots', 'Cognitive Robotics', 'Computer And Information Science', 'Natural Language', 'Categorial Grammar']"}, 0.03699071743818073)
+[2021-04-13 08:47:07 +0800] [24555] [INFO] Booting worker with pid: 24555
+[2021-04-13 08:47:08,920] ERROR in app: Exception on /getPredict [GET]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/Python3.7/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/scholar/scholar-web/app.py", line 102, in getPredict
+    return NewPredictH.predict(scholarSelected['name']).dump_options_with_quotes()
+KeyError: 'name'
+Database version : 5.7.32-0ubuntu0.18.04.1 
+((5987, 'Sundus Kubba', 2010, 245, 1225, 1, 0.767796, 7), (5988, 'Sundus Kubba', 2011, 245, 1225, 50, 0.767796, 7), (5989, 'Sundus Kubba', 2012, 245, 1225, 50, 0.767796, 7), (5990, 'Sundus Kubba', 2013, 245, 1225, 50, 0.767796, 7), (5991, 'Sundus Kubba', 2014, 269, 1347, 50, 0.691017, 7), (5992, 'Sundus Kubba', 2015, 269, 1347, 50, 0.691017, 7), (5993, 'Sundus Kubba', 2016, 322, 1616, 50, 0.552813, 8), (5994, 'Sundus Kubba', 2017, 386, 1939, 50, 0.442251, 9), (5995, 'Sundus Kubba', 2018, 463, 2326, 50, 0.3538, 10), (5996, 'Sundus Kubba', 2019, 600, 3023, 50, 0.24766, 13), (5997, 'Sundus Kubba', 2020, 600, 3627, 50, 0.198128, 15), (5998, 'Sundus Kubba', 2021, 600, 4352, 50, 0.158503, 18))
+((5987, 'Sundus Kubba', 2010, 245, 1225, 1, 0.767796, 7), (5988, 'Sundus Kubba', 2011, 245, 1225, 50, 0.767796, 7), (5989, 'Sundus Kubba', 2012, 245, 1225, 50, 0.767796, 7), (5990, 'Sundus Kubba', 2013, 245, 1225, 50, 0.767796, 7), (5991, 'Sundus Kubba', 2014, 269, 1347, 50, 0.691017, 7), (5992, 'Sundus Kubba', 2015, 269, 1347, 50, 0.691017, 7), (5993, 'Sundus Kubba', 2016, 322, 1616, 50, 0.552813, 8), (5994, 'Sundus Kubba', 2017, 386, 1939, 50, 0.442251, 9), (5995, 'Sundus Kubba', 2018, 463, 2326, 50, 0.3538, 10), (5996, 'Sundus Kubba', 2019, 600, 3023, 50, 0.24766, 13), (5997, 'Sundus Kubba', 2020, 600, 3627, 50, 0.198128, 15), (5998, 'Sundus Kubba', 2021, 600, 4352, 50, 0.158503, 18))
+[[600, 3627, 50, 0.198128, 15]]
+[({'id': '53f437a4dabfaeecd696a39e', 'name': 'Donia Scott', 'name_zh': '', 'position': 'Professor', 'h_index': 18, 'interests': "['Natural Language Generation', 'Knowledge Bases', 'Natural Language', 'Computational Linguistics', 'Reference Architecture', 'Software Architecture', 'Query Interface', 'Document Processing', 'Artificial Intelligence', 'Text Generation']"}, 0.754), ({'id': '53f42c2cdabfaedd74d24867', 'name': 'Hendrik Zender', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 13, 'interests': "['Mobile Robot', 'Computer And Information Science', 'Mobile Robots', 'Large-scale Space', 'Robotic Assistant', 'Cognitive Robotics', 'Object Recognition', 'Integrable System', 'Indoor Environment', 'Knowledge Base']"}, 0.69), ({'id': '53f43359dabfaeee2298b6dd', 'name': 'Remus Teodorescu', 'name_zh': '', 'position': "Department's Research Training Coordinator", 'h_index': 48, 'interests': "['Distributed Generation', 'Wind Turbine', 'Wind Turbines', 'Transmission System', 'Energy Storage System', 'Maximum Power Point', 'Wind Power', 'Reactive Power', 'Distributed Power Generation', 'Power Delivery']"}, 0.575), ({'id': '53f42d70dabfaeb1a7b8bc11', 'name': 'Sundus Kubba', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 3, 'interests': "['Frequency Drift', 'Standard Logic Cmos Process', 'Piezoelectric Res- Onator Oscillators', 'Voltage-controlled Oscillators Vcos.', 'Prototype Frequency Source', 'Cmos Process', 'Index Terms—clocks', '25-mhz Self-referenced Solid-state Frequency', 'Ppm Frequency Inaccuracy', 'Frequency Source']"}, 0.35658933986675906), ({'id': '53f4382cdabfaedd74db1061', 'name': 'Srinivasan Janarthanam', 'name_zh': '', 'position': "Department's Research Training Coordinator", 'h_index': 9, 'interests': "['Reinforcement Learning', 'Dialogue System', 'Domain Knowledge', 'Expression Generation', 'Markov Decision Process', 'User Model', 'Domain Expertise', 'Real User', 'Reg Policy', 'Domain Entity']"}, 0.201)]
+5
+0 ({'id': '53f437a4dabfaeecd696a39e', 'name': 'Donia Scott', 'name_zh': '', 'position': 'Professor', 'h_index': 18, 'interests': "['Natural Language Generation', 'Knowledge Bases', 'Natural Language', 'Computational Linguistics', 'Reference Architecture', 'Software Architecture', 'Query Interface', 'Document Processing', 'Artificial Intelligence', 'Text Generation']"}, 0.754)
+1 ({'id': '53f42c2cdabfaedd74d24867', 'name': 'Hendrik Zender', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 13, 'interests': "['Mobile Robot', 'Computer And Information Science', 'Mobile Robots', 'Large-scale Space', 'Robotic Assistant', 'Cognitive Robotics', 'Object Recognition', 'Integrable System', 'Indoor Environment', 'Knowledge Base']"}, 0.69)
+2 ({'id': '53f43359dabfaeee2298b6dd', 'name': 'Remus Teodorescu', 'name_zh': '', 'position': "Department's Research Training Coordinator", 'h_index': 48, 'interests': "['Distributed Generation', 'Wind Turbine', 'Wind Turbines', 'Transmission System', 'Energy Storage System', 'Maximum Power Point', 'Wind Power', 'Reactive Power', 'Distributed Power Generation', 'Power Delivery']"}, 0.575)
+3 ({'id': '53f42d70dabfaeb1a7b8bc11', 'name': 'Sundus Kubba', 'name_zh': '', 'position': 'Professor and chairman', 'h_index': 3, 'interests': "['Frequency Drift', 'Standard Logic Cmos Process', 'Piezoelectric Res- Onator Oscillators', 'Voltage-controlled Oscillators Vcos.', 'Prototype Frequency Source', 'Cmos Process', 'Index Terms—clocks', '25-mhz Self-referenced Solid-state Frequency', 'Ppm Frequency Inaccuracy', 'Frequency Source']"}, 0.35658933986675906)
+4 ({'id': '53f4382cdabfaedd74db1061', 'name': 'Srinivasan Janarthanam', 'name_zh': '', 'position': "Department's Research Training Coordinator", 'h_index': 9, 'interests': "['Reinforcement Learning', 'Dialogue System', 'Domain Knowledge', 'Expression Generation', 'Markov Decision Process', 'User Model', 'Domain Expertise', 'Real User', 'Reg Policy', 'Domain Entity']"}, 0.201)
+[2, 3, 3, 3, 3]
+Program done!
+((5987, 'Sundus Kubba', 2010, 245, 1225, 1, 0.767796, 7), (5988, 'Sundus Kubba', 2011, 245, 1225, 50, 0.767796, 7), (5989, 'Sundus Kubba', 2012, 245, 1225, 50, 0.767796, 7), (5990, 'Sundus Kubba', 2013, 245, 1225, 50, 0.767796, 7), (5991, 'Sundus Kubba', 2014, 269, 1347, 50, 0.691017, 7), (5992, 'Sundus Kubba', 2015, 269, 1347, 50, 0.691017, 7), (5993, 'Sundus Kubba', 2016, 322, 1616, 50, 0.552813, 8), (5994, 'Sundus Kubba', 2017, 386, 1939, 50, 0.442251, 9), (5995, 'Sundus Kubba', 2018, 463, 2326, 50, 0.3538, 10), (5996, 'Sundus Kubba', 2019, 600, 3023, 50, 0.24766, 13), (5997, 'Sundus Kubba', 2020, 600, 3627, 50, 0.198128, 15), (5998, 'Sundus Kubba', 2021, 600, 4352, 50, 0.158503, 18))
+((5987, 'Sundus Kubba', 2010, 245, 1225, 1, 0.767796, 7), (5988, 'Sundus Kubba', 2011, 245, 1225, 50, 0.767796, 7), (5989, 'Sundus Kubba', 2012, 245, 1225, 50, 0.767796, 7), (5990, 'Sundus Kubba', 2013, 245, 1225, 50, 0.767796, 7), (5991, 'Sundus Kubba', 2014, 269, 1347, 50, 0.691017, 7), (5992, 'Sundus Kubba', 2015, 269, 1347, 50, 0.691017, 7), (5993, 'Sundus Kubba', 2016, 322, 1616, 50, 0.552813, 8), (5994, 'Sundus Kubba', 2017, 386, 1939, 50, 0.442251, 9), (5995, 'Sundus Kubba', 2018, 463, 2326, 50, 0.3538, 10), (5996, 'Sundus Kubba', 2019, 600, 3023, 50, 0.24766, 13), (5997, 'Sundus Kubba', 2020, 600, 3627, 50, 0.198128, 15), (5998, 'Sundus Kubba', 2021, 600, 4352, 50, 0.158503, 18))
+((5987, 'Sundus Kubba', 2010, 245, 1225, 1, 0.767796, 7), (5988, 'Sundus Kubba', 2011, 245, 1225, 50, 0.767796, 7), (5989, 'Sundus Kubba', 2012, 245, 1225, 50, 0.767796, 7), (5990, 'Sundus Kubba', 2013, 245, 1225, 50, 0.767796, 7), (5991, 'Sundus Kubba', 2014, 269, 1347, 50, 0.691017, 7), (5992, 'Sundus Kubba', 2015, 269, 1347, 50, 0.691017, 7), (5993, 'Sundus Kubba', 2016, 322, 1616, 50, 0.552813, 8), (5994, 'Sundus Kubba', 2017, 386, 1939, 50, 0.442251, 9), (5995, 'Sundus Kubba', 2018, 463, 2326, 50, 0.3538, 10), (5996, 'Sundus Kubba', 2019, 600, 3023, 50, 0.24766, 13), (5997, 'Sundus Kubba', 2020, 600, 3627, 50, 0.198128, 15), (5998, 'Sundus Kubba', 2021, 600, 4352, 50, 0.158503, 18))
+((5987, 'Sundus Kubba', 2010, 245, 1225, 1, 0.767796, 7), (5988, 'Sundus Kubba', 2011, 245, 1225, 50, 0.767796, 7), (5989, 'Sundus Kubba', 2012, 245, 1225, 50, 0.767796, 7), (5990, 'Sundus Kubba', 2013, 245, 1225, 50, 0.767796, 7), (5991, 'Sundus Kubba', 2014, 269, 1347, 50, 0.691017, 7), (5992, 'Sundus Kubba', 2015, 269, 1347, 50, 0.691017, 7), (5993, 'Sundus Kubba', 2016, 322, 1616, 50, 0.552813, 8), (5994, 'Sundus Kubba', 2017, 386, 1939, 50, 0.442251, 9), (5995, 'Sundus Kubba', 2018, 463, 2326, 50, 0.3538, 10), (5996, 'Sundus Kubba', 2019, 600, 3023, 50, 0.24766, 13), (5997, 'Sundus Kubba', 2020, 600, 3627, 50, 0.198128, 15), (5998, 'Sundus Kubba', 2021, 600, 4352, 50, 0.158503, 18))

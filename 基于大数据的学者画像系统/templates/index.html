@@ -1,0 +1,102 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Flat Search Box Responsive Widget Template | Home :: w3layouts</title>
+	<!-- Custom Theme files -->
+	<link href="../static/css/index-style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../static/css/header.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Custom Theme files -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords"
+		content="Flat Search Box Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<!--Google Fonts-->
+	<link
+		href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+		rel='stylesheet' type='text/css'>
+	<!--Google Fonts-->
+	<script src="../static/js/jquery-3.5.1.js"></script>
+	<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script>
+		$(function () {
+			$("#search").click(function () {
+				console.log("click");
+				name = $("#searchValue").val();
+				// $.ajax({
+				// 	url: "http://localhost:5555/searchresult",//要请求的服务器url
+				// 	data: { name: name },//第一个name对应的是后端request.getParameter("name")的name、第二个name对应的是此js中的var name = $("#name").val();的name
+				// 	async: true,//是否是异步请求
+				// 	cache: false,//是否缓存结果
+				// 	type: "GET",//请求方式
+				// 	//dataType: "json",//服务器返回什么类型数据 text xml javascript json(javascript对象)
+				// 	success: function (result) {//函数会在服务器执行成功后执行，result就是服务器返回结果
+				// 		console.log(result)
+				// 		window.location.href = "searchresult"
+				// 	},
+				// 	error: function (jqXHR, textStatus, errorThrown) {
+
+				// 	}
+				// });
+
+				// $.cookie('name', name);
+				window.location.href = 'searchresult?name=' + name
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header class="header_cst">
+		<div class="container">
+			<div class=" header_cst_inner">
+				<div class="header_cst_logo">
+				<!--					<a href="#">-->
+				<!--	&lt;!&ndash;					<img src="images/building.jpg" alt="School Logo">&ndash;&gt;-->
+				<!--					</a>-->
+				</div>
+				<nav class="menu_cst">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+			<!--				<div class="header_cst_contact">-->
+			<!--					<a href="https://mail.bjtu.edu.cn/">Contact me</a>-->
+			<!--				</div>-->
+				<nav class="header_cst_menu">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!--search start here-->
+	<div class="search">
+		<!--		<i> </i>-->
+		<div class="s-bar">
+			<form>
+				<input type="text" value="尽情搜索吧！" id="searchValue" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = '尽情搜索吧！';}">
+				<input type="button" id="search" value="搜索" />
+			</form>
+		</div>
+
+		<!--	<p>Popular searches: <a href="#">Modern PSD template,</a> <a href="#"> Portfolio design </a></p>-->
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		个人页面
+	</title>
+	<link href="icon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="../static/css/detail-style.css" rel="stylesheet">
+	<link href="../static/css/header.css" rel="stylesheet" type="text/css" media="all" />
+	<!--&#25913;&#21464;&#23383;&#20307;-->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700%7CSource+Sans+Pro:400,400i"
+		rel="stylesheet">
+	<script src="../static/js/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>--
+	<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script>
+		$(function () {
+			// console.log($.cookie('name'));
+			// alert($.cookie('name'));
+			var name = $.cookie('clickName');
+			$.ajax({
+				url: "/getScholar",//要请求的服务器url
+				data: { name: name },//第一个name对应的是后端request.getParameter("name")的name、第二个name对应的是此js中的var name = $("#name").val();的name
+				async: true,//是否是异步请求
+				cache: false,//是否缓存结果
+				type: "GET",//请求方式
+				dataType: "json",//服务器返回什么类型数据 text xml javascript json(javascript对象)
+				success: function (result) {//函数会在服务器执行成功后执行，result就是服务器返回结果
+					var json = typeof result == "string" ? JSON.parse(result) : result;
+					console.log(result);
+					console.log(typeof result);
+					console.log(json);
+					console.log(typeof json);
+					// console.log("result");
+					// alert(result['name']);
+					$("#nameScholar").text(json.name);
+					// let interest = ""
+					// for (var j = 0; j < json[0].interests.length; j++) {
+					//     if (j == json[0].interests.length - 1) {
+					//         interest = interest + json[0].interests[j] + "."
+					//     } else if (j == json[0].interests.length - 2) {
+					//         interest = interest + json[0].interests[j] + " and "
+					//     } else {
+					//         interest = interest + json[0].interests[j] + ", "
+					//     }
+					// }
+					$(".interest").children().remove();
+					$(".interest").append("<br>")
+					for (var j = 0; j < json.interests.length; j++) {
+						var html = "<span class=\"key\">" + json.interests[j] + "</span><br>\n"
+						$(".interest").append(html)
+						// if((j+1)%4==0){
+						//     $(".interest").append("<br>\n")
+						// }
+					}
+					$("#position").text(json.position)
+					$("#hIndex").text(json.h_index)
+					$("#twitter").text("https://twitter.com/" + json.name)
+					$("#facebook").text("https://www.facebook.com/" + json.name)
+					// $(".interest").children().forEach(function (index){
+					//     $(this).text(json[0].interests[index])
+					//     if
+					// })
+				},
+				error: function (jqXHR, textStatus, errorThrown) {
+
+				}
+			});
+			$.ajax({
+				type: "GET",
+				url: "getHistory",
+				dataType: 'json',
+				async: false,//是否是异步请求
+				success: function (result) {
+					var chart = echarts.init(document.getElementById('graph'), '#f0f0f0', { renderer: 'canvas' });
+					chart.setOption(result);
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header class="header_cst">
+		<div class="container">
+			<div class="header_cst_inner">
+				<div class="header_cst_logo">
+					<!--					<a href="#">-->
+					<!--	&lt;!&ndash;					<img src="images/building.jpg" alt="School Logo">&ndash;&gt;-->
+					<!--					</a>-->
+				</div>
+				<nav class="menu_cst">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+				<!--				<div class="header_cst_contact">-->
+				<!--					<a href="https://mail.bjtu.edu.cn/">Contact me</a>-->
+				<!--				</div>-->
+				<nav class="header_cst_menu">
+					<ul>
+						<li><a href="#">智能·发现</a></li>
+						<li><a href="#">学者</a></li>
+						<li><a href="#">论文</a></li>
+						<li><a href="#">学者圈</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="page">
+		<div class="section row">
+			<div align="center">
+				<!--&#35753;&#29031;&#29255;&#23621;&#20013;-->
+				<img src="../static/img/scientist.png" width="100">
+			</div>
+			<h1 class="col">
+				<span id="nameScholar" style="font-weight:600">Jie</span>
+			</h1>
+			<div class="contact-info col-right">
+				<!--            <div>Weibo:<a href="https://weibo.com/">https://weibo.com/</a>-->
+				<!--            </div>-->
+				<div></div>
+				<div id="twitter">Twitter:<a href="https://twitter.com/jietang">https://twitter.com/</a>
+				</div>
+				<div id="facebook">Facebook:<a
+						href="https://www.facebook.com/jie.tang.585">https://www.facebook.com/</a>
+				</div>
+			</div>
+		</div>
+		<div class="section row">
+			<h2 class="col">
+				Interests
+			</h2>
+			<div id="interest" class="section-text col-right">
+				<br>
+				<span class="key">Social Network</span>
+				<br>
+				<span class="key">Social Influence</span>
+				<br>
+				<span class="key">Semantic Web</span>
+				<br>
+				<span class="key">Computer Science</span>
+				<br>
+				<span class="key">Data Mining</span>
+				<br>
+				<span class="key">Knowledge Graph</span>
+				<br>
+			</div>
+		</div>
+		<div class="section row">
+			<h2 class="col">
+				Position
+			</h2>
+			<div class="section-text col-right">
+				<h3>
+					<span id="position" class="emph">Full Professor and the Associate Chair</span>
+					<span></span>
+				</h3>
+				<!--            <div>Department of Computer Science and Technology of Tsinghua University</div>-->
+				<!--            <div class="row">-->
+				<!--                <div class="col light">Beijing, China</div>-->
+				<!--                <div class="col-right light"></div>-->
+				<!--            </div>-->
+			</div>
+		</div>
+		<div class="section row">
+			<h2 class="col">
+				Power
+			</h2>
+			<div class="section-text col-right">
+				<h3>
+					<!-- <span id="hIndex" class="emph">Full Professor and the Associate Chair</span>
+					<span></span> -->
+					<div id="graph" class="chart-container rounded-lg"
+						style="width:500px; height:500px;background: #f0f0f0; ">
+				</h3>
+				<!--            <div>Department of Computer Science and Technology of Tsinghua University</div>-->
+				<!--            <div class="row">-->
+				<!--                <div class="col light">Beijing, China</div>-->
+				<!--                <div class="col-right light"></div>-->
+				<!--            </div>-->
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

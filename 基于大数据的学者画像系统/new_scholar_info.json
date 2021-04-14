@@ -1,0 +1,5402 @@
+[
+    {
+        "name": "A Noone",
+        "year_num": 2010,
+        "paper": 409,
+        "citation": 2045,
+        "h_index": 1,
+        "p_index": 0.0938851,
+        "g_index": 7
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2011,
+        "paper": 157,
+        "citation": 785,
+        "h_index": 1,
+        "p_index": 0.928808,
+        "g_index": 7
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2012,
+        "paper": 525,
+        "citation": 2625,
+        "h_index": 1,
+        "p_index": 0.97147,
+        "g_index": 7
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2013,
+        "paper": 353,
+        "citation": 1765,
+        "h_index": 1,
+        "p_index": 0.0759843,
+        "g_index": 7
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2014,
+        "paper": 550,
+        "citation": 2750,
+        "h_index": 2,
+        "p_index": 0.066411,
+        "g_index": 12
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2015,
+        "paper": 546,
+        "citation": 2730,
+        "h_index": 2,
+        "p_index": 0.149227,
+        "g_index": 6
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2016,
+        "paper": 295,
+        "citation": 1475,
+        "h_index": 3,
+        "p_index": 0.76686,
+        "g_index": 8
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2017,
+        "paper": 60,
+        "citation": 300,
+        "h_index": 3,
+        "p_index": 0.346135,
+        "g_index": 8
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2018,
+        "paper": 565,
+        "citation": 2825,
+        "h_index": 4,
+        "p_index": 0.533587,
+        "g_index": 8
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 4,
+        "p_index": 0.0662573,
+        "g_index": 13
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2020,
+        "paper": 153,
+        "citation": 765,
+        "h_index": 4,
+        "p_index": 0.965015,
+        "g_index": 13
+    },
+    {
+        "name": "A Noone",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 6,
+        "p_index": 0.723895,
+        "g_index": 16
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2010,
+        "paper": 254,
+        "citation": 1270,
+        "h_index": 4,
+        "p_index": 0.935761,
+        "g_index": 14
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2011,
+        "paper": 413,
+        "citation": 2065,
+        "h_index": 6,
+        "p_index": 0.160144,
+        "g_index": 10
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2012,
+        "paper": 265,
+        "citation": 1325,
+        "h_index": 8,
+        "p_index": 0.914861,
+        "g_index": 13
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2013,
+        "paper": 389,
+        "citation": 1945,
+        "h_index": 10,
+        "p_index": 0.297761,
+        "g_index": 13
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 12,
+        "p_index": 0.360647,
+        "g_index": 20
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.634759,
+        "g_index": 22
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.94429,
+        "g_index": 17
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 16,
+        "p_index": 0.773791,
+        "g_index": 21
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2018,
+        "paper": 255,
+        "citation": 1275,
+        "h_index": 16,
+        "p_index": 0.751372,
+        "g_index": 23
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 17,
+        "p_index": 0.0214835,
+        "g_index": 25
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2020,
+        "paper": 242,
+        "citation": 1210,
+        "h_index": 18,
+        "p_index": 0.0302722,
+        "g_index": 26
+    },
+    {
+        "name": "Albert Gatt",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 18,
+        "p_index": 0.890241,
+        "g_index": 21
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 5,
+        "p_index": 0.402103,
+        "g_index": 15
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2011,
+        "paper": 500,
+        "citation": 2500,
+        "h_index": 7,
+        "p_index": 0.730664,
+        "g_index": 11
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 8,
+        "p_index": 0.0386494,
+        "g_index": 11
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2013,
+        "paper": 460,
+        "citation": 2300,
+        "h_index": 8,
+        "p_index": 0.2034,
+        "g_index": 16
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2014,
+        "paper": 445,
+        "citation": 2225,
+        "h_index": 9,
+        "p_index": 0.241968,
+        "g_index": 19
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2015,
+        "paper": 365,
+        "citation": 1825,
+        "h_index": 10,
+        "p_index": 0.733352,
+        "g_index": 17
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 12,
+        "p_index": 0.929848,
+        "g_index": 22
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 13,
+        "p_index": 0.913531,
+        "g_index": 21
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2018,
+        "paper": 411,
+        "citation": 2055,
+        "h_index": 14,
+        "p_index": 0.696275,
+        "g_index": 23
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2019,
+        "paper": 569,
+        "citation": 2845,
+        "h_index": 15,
+        "p_index": 0.902685,
+        "g_index": 19
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 15,
+        "p_index": 0.349961,
+        "g_index": 20
+    },
+    {
+        "name": "Alex Potanin",
+        "year_num": 2021,
+        "paper": 317,
+        "citation": 1585,
+        "h_index": 16,
+        "p_index": 0.436388,
+        "g_index": 25
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 38,
+        "p_index": 0.3121,
+        "g_index": 48
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 40,
+        "p_index": 0.97075,
+        "g_index": 45
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 41,
+        "p_index": 0.252886,
+        "g_index": 51
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 41,
+        "p_index": 0.170235,
+        "g_index": 51
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2014,
+        "paper": 468,
+        "citation": 2340,
+        "h_index": 41,
+        "p_index": 0.861851,
+        "g_index": 49
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 41,
+        "p_index": 0.143184,
+        "g_index": 45
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 43,
+        "p_index": 0.179148,
+        "g_index": 47
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 45,
+        "p_index": 0.288973,
+        "g_index": 55
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2018,
+        "paper": 558,
+        "citation": 2790,
+        "h_index": 45,
+        "p_index": 0.123031,
+        "g_index": 49
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 45,
+        "p_index": 0.70925,
+        "g_index": 53
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 47,
+        "p_index": 0.924604,
+        "g_index": 57
+    },
+    {
+        "name": "Andrew W. Appel",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 49,
+        "p_index": 0.836418,
+        "g_index": 52
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2010,
+        "paper": 340,
+        "citation": 1700,
+        "h_index": 1,
+        "p_index": 0.469502,
+        "g_index": 10
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2011,
+        "paper": 500,
+        "citation": 2500,
+        "h_index": 2,
+        "p_index": 0.59406,
+        "g_index": 5
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2012,
+        "paper": 572,
+        "citation": 2860,
+        "h_index": 3,
+        "p_index": 0.774154,
+        "g_index": 6
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2013,
+        "paper": 204,
+        "citation": 1020,
+        "h_index": 4,
+        "p_index": 0.29924,
+        "g_index": 11
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2014,
+        "paper": 579,
+        "citation": 2895,
+        "h_index": 6,
+        "p_index": 0.250974,
+        "g_index": 14
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2015,
+        "paper": 402,
+        "citation": 2010,
+        "h_index": 6,
+        "p_index": 0.43907,
+        "g_index": 14
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2016,
+        "paper": 330,
+        "citation": 1650,
+        "h_index": 8,
+        "p_index": 0.388996,
+        "g_index": 14
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2017,
+        "paper": 572,
+        "citation": 2860,
+        "h_index": 8,
+        "p_index": 0.186079,
+        "g_index": 17
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2018,
+        "paper": 523,
+        "citation": 2615,
+        "h_index": 10,
+        "p_index": 0.236924,
+        "g_index": 19
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2019,
+        "paper": 566,
+        "citation": 2830,
+        "h_index": 12,
+        "p_index": 0.756573,
+        "g_index": 20
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2020,
+        "paper": 441,
+        "citation": 2205,
+        "h_index": 14,
+        "p_index": 0.591662,
+        "g_index": 19
+    },
+    {
+        "name": "Anja Belz",
+        "year_num": 2021,
+        "paper": 506,
+        "citation": 2530,
+        "h_index": 16,
+        "p_index": 0.0891744,
+        "g_index": 19
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2010,
+        "paper": 229,
+        "citation": 1145,
+        "h_index": 18,
+        "p_index": 0.963563,
+        "g_index": 27
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 19,
+        "p_index": 0.412605,
+        "g_index": 27
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2012,
+        "paper": 211,
+        "citation": 1055,
+        "h_index": 20,
+        "p_index": 0.733923,
+        "g_index": 30
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 20,
+        "p_index": 0.368585,
+        "g_index": 23
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2014,
+        "paper": 227,
+        "citation": 1135,
+        "h_index": 20,
+        "p_index": 0.983773,
+        "g_index": 26
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 20,
+        "p_index": 0.247924,
+        "g_index": 24
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2016,
+        "paper": 317,
+        "citation": 1585,
+        "h_index": 21,
+        "p_index": 0.397409,
+        "g_index": 29
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.0448351,
+        "g_index": 31
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2018,
+        "paper": 440,
+        "citation": 2200,
+        "h_index": 23,
+        "p_index": 0.0592275,
+        "g_index": 30
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.148953,
+        "g_index": 32
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.64326,
+        "g_index": 33
+    },
+    {
+        "name": "Buell C Robin",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 27,
+        "p_index": 0.602054,
+        "g_index": 34
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2010,
+        "paper": 555,
+        "citation": 2775,
+        "h_index": 25,
+        "p_index": 0.15726,
+        "g_index": 35
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2011,
+        "paper": 520,
+        "citation": 2600,
+        "h_index": 25,
+        "p_index": 0.311825,
+        "g_index": 29
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.923464,
+        "g_index": 29
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.0615794,
+        "g_index": 32
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2014,
+        "paper": 479,
+        "citation": 2395,
+        "h_index": 26,
+        "p_index": 0.110598,
+        "g_index": 34
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2015,
+        "paper": 312,
+        "citation": 1560,
+        "h_index": 27,
+        "p_index": 0.00334856,
+        "g_index": 37
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2016,
+        "paper": 449,
+        "citation": 2245,
+        "h_index": 29,
+        "p_index": 0.240469,
+        "g_index": 37
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 31,
+        "p_index": 0.528684,
+        "g_index": 41
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 33,
+        "p_index": 0.331782,
+        "g_index": 41
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 35,
+        "p_index": 0.905704,
+        "g_index": 41
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 35,
+        "p_index": 0.413284,
+        "g_index": 38
+    },
+    {
+        "name": "Chris Mellish",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 35,
+        "p_index": 0.303251,
+        "g_index": 42
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2010,
+        "paper": 498,
+        "citation": 2490,
+        "h_index": 1,
+        "p_index": 0.85507,
+        "g_index": 7
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2011,
+        "paper": 381,
+        "citation": 1905,
+        "h_index": 1,
+        "p_index": 0.272953,
+        "g_index": 11
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2012,
+        "paper": 585,
+        "citation": 2925,
+        "h_index": 1,
+        "p_index": 0.161515,
+        "g_index": 6
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2013,
+        "paper": 129,
+        "citation": 645,
+        "h_index": 1,
+        "p_index": 0.691735,
+        "g_index": 5
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2014,
+        "paper": 191,
+        "citation": 955,
+        "h_index": 1,
+        "p_index": 0.295316,
+        "g_index": 5
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2015,
+        "paper": 436,
+        "citation": 2180,
+        "h_index": 2,
+        "p_index": 0.989317,
+        "g_index": 11
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2016,
+        "paper": 568,
+        "citation": 2840,
+        "h_index": 2,
+        "p_index": 0.00634221,
+        "g_index": 9
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2017,
+        "paper": 578,
+        "citation": 2890,
+        "h_index": 2,
+        "p_index": 0.861095,
+        "g_index": 7
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 2,
+        "p_index": 0.262125,
+        "g_index": 7
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 3,
+        "p_index": 0.275958,
+        "g_index": 11
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2020,
+        "paper": 104,
+        "citation": 520,
+        "h_index": 3,
+        "p_index": 0.1771,
+        "g_index": 11
+    },
+    {
+        "name": "Daniel Paiva",
+        "year_num": 2021,
+        "paper": 261,
+        "citation": 1305,
+        "h_index": 5,
+        "p_index": 0.128676,
+        "g_index": 12
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2010,
+        "paper": 446,
+        "citation": 2230,
+        "h_index": 1,
+        "p_index": 0.727701,
+        "g_index": 9
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2011,
+        "paper": 186,
+        "citation": 930,
+        "h_index": 3,
+        "p_index": 0.31369,
+        "g_index": 12
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2012,
+        "paper": 184,
+        "citation": 920,
+        "h_index": 3,
+        "p_index": 0.836286,
+        "g_index": 11
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2013,
+        "paper": 285,
+        "citation": 1425,
+        "h_index": 5,
+        "p_index": 0.422162,
+        "g_index": 14
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2014,
+        "paper": 234,
+        "citation": 1170,
+        "h_index": 7,
+        "p_index": 0.237318,
+        "g_index": 15
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 8,
+        "p_index": 0.56166,
+        "g_index": 11
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2016,
+        "paper": 251,
+        "citation": 1255,
+        "h_index": 9,
+        "p_index": 0.806909,
+        "g_index": 17
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2017,
+        "paper": 142,
+        "citation": 710,
+        "h_index": 11,
+        "p_index": 0.0414177,
+        "g_index": 18
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2018,
+        "paper": 586,
+        "citation": 2930,
+        "h_index": 13,
+        "p_index": 0.383916,
+        "g_index": 18
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2019,
+        "paper": 250,
+        "citation": 1250,
+        "h_index": 14,
+        "p_index": 0.471789,
+        "g_index": 21
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2020,
+        "paper": 383,
+        "citation": 1915,
+        "h_index": 16,
+        "p_index": 0.553039,
+        "g_index": 21
+    },
+    {
+        "name": "Donia Scott",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 18,
+        "p_index": 0.0857275,
+        "g_index": 27
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2010,
+        "paper": 517,
+        "citation": 2585,
+        "h_index": 30,
+        "p_index": 0.320678,
+        "g_index": 36
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2011,
+        "paper": 510,
+        "citation": 2550,
+        "h_index": 31,
+        "p_index": 0.928687,
+        "g_index": 41
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2012,
+        "paper": 382,
+        "citation": 1910,
+        "h_index": 32,
+        "p_index": 0.127285,
+        "g_index": 35
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2013,
+        "paper": 375,
+        "citation": 1875,
+        "h_index": 32,
+        "p_index": 0.315734,
+        "g_index": 35
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 33,
+        "p_index": 0.323655,
+        "g_index": 36
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 33,
+        "p_index": 0.963619,
+        "g_index": 39
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 33,
+        "p_index": 0.107398,
+        "g_index": 40
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 33,
+        "p_index": 0.228054,
+        "g_index": 42
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 35,
+        "p_index": 0.348601,
+        "g_index": 44
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 35,
+        "p_index": 0.377597,
+        "g_index": 39
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 35,
+        "p_index": 0.899224,
+        "g_index": 40
+    },
+    {
+        "name": "Ehud Reiter",
+        "year_num": 2021,
+        "paper": 517,
+        "citation": 2585,
+        "h_index": 35,
+        "p_index": 0.674324,
+        "g_index": 38
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2010,
+        "paper": 513,
+        "citation": 2565,
+        "h_index": 5,
+        "p_index": 0.274536,
+        "g_index": 8
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2011,
+        "paper": 375,
+        "citation": 1875,
+        "h_index": 7,
+        "p_index": 0.307759,
+        "g_index": 11
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2012,
+        "paper": 88,
+        "citation": 440,
+        "h_index": 7,
+        "p_index": 0.310992,
+        "g_index": 10
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2013,
+        "paper": 320,
+        "citation": 1600,
+        "h_index": 9,
+        "p_index": 0.0290815,
+        "g_index": 12
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2014,
+        "paper": 464,
+        "citation": 2320,
+        "h_index": 11,
+        "p_index": 0.390782,
+        "g_index": 20
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2015,
+        "paper": 556,
+        "citation": 2780,
+        "h_index": 13,
+        "p_index": 0.372784,
+        "g_index": 23
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2016,
+        "paper": 248,
+        "citation": 1240,
+        "h_index": 13,
+        "p_index": 0.262851,
+        "g_index": 19
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2017,
+        "paper": 176,
+        "citation": 880,
+        "h_index": 14,
+        "p_index": 0.198152,
+        "g_index": 22
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 15,
+        "p_index": 0.950534,
+        "g_index": 24
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2019,
+        "paper": 374,
+        "citation": 1870,
+        "h_index": 17,
+        "p_index": 0.110274,
+        "g_index": 23
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2020,
+        "paper": 303,
+        "citation": 1515,
+        "h_index": 18,
+        "p_index": 0.219776,
+        "g_index": 24
+    },
+    {
+        "name": "Eijiro Sumii",
+        "year_num": 2021,
+        "paper": 338,
+        "citation": 1690,
+        "h_index": 19,
+        "p_index": 0.595756,
+        "g_index": 27
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.861496,
+        "g_index": 26
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2011,
+        "paper": 573,
+        "citation": 2865,
+        "h_index": 24,
+        "p_index": 0.388962,
+        "g_index": 29
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.0817883,
+        "g_index": 33
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2013,
+        "paper": 452,
+        "citation": 2260,
+        "h_index": 25,
+        "p_index": 0.0541623,
+        "g_index": 34
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.701333,
+        "g_index": 32
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.521436,
+        "g_index": 35
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.379906,
+        "g_index": 35
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2017,
+        "paper": 394,
+        "citation": 1970,
+        "h_index": 25,
+        "p_index": 0.928006,
+        "g_index": 29
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 26,
+        "p_index": 0.114752,
+        "g_index": 31
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2019,
+        "paper": 543,
+        "citation": 2715,
+        "h_index": 27,
+        "p_index": 0.881671,
+        "g_index": 33
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 27,
+        "p_index": 0.145894,
+        "g_index": 34
+    },
+    {
+        "name": "Emiel Krahmer",
+        "year_num": 2021,
+        "paper": 367,
+        "citation": 1835,
+        "h_index": 27,
+        "p_index": 0.00844973,
+        "g_index": 33
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 55,
+        "p_index": 0.304092,
+        "g_index": 63
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 57,
+        "p_index": 0.0442336,
+        "g_index": 66
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 59,
+        "p_index": 0.494433,
+        "g_index": 65
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 61,
+        "p_index": 0.631308,
+        "g_index": 68
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 62,
+        "p_index": 0.262295,
+        "g_index": 66
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 64,
+        "p_index": 0.78049,
+        "g_index": 70
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 66,
+        "p_index": 0.668602,
+        "g_index": 72
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 66,
+        "p_index": 0.00953803,
+        "g_index": 75
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 68,
+        "p_index": 0.568085,
+        "g_index": 71
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 68,
+        "p_index": 0.267795,
+        "g_index": 75
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 70,
+        "p_index": 0.950442,
+        "g_index": 80
+    },
+    {
+        "name": "Frede Blaabjerg",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 72,
+        "p_index": 0.332456,
+        "g_index": 78
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2010,
+        "paper": 389,
+        "citation": 1945,
+        "h_index": 13,
+        "p_index": 0.436425,
+        "g_index": 20
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2011,
+        "paper": 384,
+        "citation": 1920,
+        "h_index": 15,
+        "p_index": 0.110551,
+        "g_index": 24
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2012,
+        "paper": 221,
+        "citation": 1105,
+        "h_index": 16,
+        "p_index": 0.0782962,
+        "g_index": 23
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2013,
+        "paper": 541,
+        "citation": 2705,
+        "h_index": 16,
+        "p_index": 0.868606,
+        "g_index": 19
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2014,
+        "paper": 468,
+        "citation": 2340,
+        "h_index": 17,
+        "p_index": 0.976462,
+        "g_index": 24
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2015,
+        "paper": 446,
+        "citation": 2230,
+        "h_index": 18,
+        "p_index": 0.48638,
+        "g_index": 25
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2016,
+        "paper": 213,
+        "citation": 1065,
+        "h_index": 18,
+        "p_index": 0.964095,
+        "g_index": 23
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2017,
+        "paper": 538,
+        "citation": 2690,
+        "h_index": 20,
+        "p_index": 0.551604,
+        "g_index": 26
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2018,
+        "paper": 429,
+        "citation": 2145,
+        "h_index": 22,
+        "p_index": 0.903625,
+        "g_index": 29
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2019,
+        "paper": 429,
+        "citation": 2145,
+        "h_index": 22,
+        "p_index": 0.499222,
+        "g_index": 31
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.0452905,
+        "g_index": 30
+    },
+    {
+        "name": "Geert-Jan M. Kruijff",
+        "year_num": 2021,
+        "paper": 445,
+        "citation": 2225,
+        "h_index": 24,
+        "p_index": 0.952383,
+        "g_index": 34
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2010,
+        "paper": 533,
+        "citation": 2665,
+        "h_index": 11,
+        "p_index": 0.293252,
+        "g_index": 20
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2011,
+        "paper": 448,
+        "citation": 2240,
+        "h_index": 11,
+        "p_index": 0.603486,
+        "g_index": 16
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2012,
+        "paper": 412,
+        "citation": 2060,
+        "h_index": 11,
+        "p_index": 0.471577,
+        "g_index": 16
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2013,
+        "paper": 553,
+        "citation": 2765,
+        "h_index": 12,
+        "p_index": 0.304107,
+        "g_index": 22
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2014,
+        "paper": 328,
+        "citation": 1640,
+        "h_index": 12,
+        "p_index": 0.610327,
+        "g_index": 15
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2015,
+        "paper": 197,
+        "citation": 985,
+        "h_index": 14,
+        "p_index": 0.65506,
+        "g_index": 24
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.0442441,
+        "g_index": 17
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 15,
+        "p_index": 0.823975,
+        "g_index": 25
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2018,
+        "paper": 374,
+        "citation": 1870,
+        "h_index": 16,
+        "p_index": 0.505999,
+        "g_index": 26
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2019,
+        "paper": 311,
+        "citation": 1555,
+        "h_index": 17,
+        "p_index": 0.235923,
+        "g_index": 26
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 19,
+        "p_index": 0.958356,
+        "g_index": 23
+    },
+    {
+        "name": "Haruyuki Nakano",
+        "year_num": 2021,
+        "paper": 292,
+        "citation": 1460,
+        "h_index": 20,
+        "p_index": 0.727972,
+        "g_index": 28
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2010,
+        "paper": 356,
+        "citation": 1780,
+        "h_index": 12,
+        "p_index": 0.454382,
+        "g_index": 17
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2011,
+        "paper": 538,
+        "citation": 2690,
+        "h_index": 12,
+        "p_index": 0.218759,
+        "g_index": 19
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2012,
+        "paper": 278,
+        "citation": 1390,
+        "h_index": 12,
+        "p_index": 0.506975,
+        "g_index": 15
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2013,
+        "paper": 339,
+        "citation": 1695,
+        "h_index": 13,
+        "p_index": 0.288227,
+        "g_index": 21
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.506724,
+        "g_index": 19
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2015,
+        "paper": 170,
+        "citation": 850,
+        "h_index": 14,
+        "p_index": 0.918348,
+        "g_index": 23
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 16,
+        "p_index": 0.387159,
+        "g_index": 24
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2017,
+        "paper": 345,
+        "citation": 1725,
+        "h_index": 18,
+        "p_index": 0.732003,
+        "g_index": 25
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 19,
+        "p_index": 0.35824,
+        "g_index": 27
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2019,
+        "paper": 425,
+        "citation": 2125,
+        "h_index": 20,
+        "p_index": 0.648933,
+        "g_index": 26
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 22,
+        "p_index": 0.296094,
+        "g_index": 25
+    },
+    {
+        "name": "Helmut Horacek",
+        "year_num": 2021,
+        "paper": 509,
+        "citation": 2545,
+        "h_index": 22,
+        "p_index": 0.00755216,
+        "g_index": 25
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2010,
+        "paper": 72,
+        "citation": 360,
+        "h_index": 1,
+        "p_index": 0.512335,
+        "g_index": 5
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2011,
+        "paper": 359,
+        "citation": 1795,
+        "h_index": 1,
+        "p_index": 0.18151,
+        "g_index": 7
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2012,
+        "paper": 350,
+        "citation": 1750,
+        "h_index": 1,
+        "p_index": 0.893305,
+        "g_index": 10
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2013,
+        "paper": 446,
+        "citation": 2230,
+        "h_index": 2,
+        "p_index": 0.153313,
+        "g_index": 5
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2014,
+        "paper": 262,
+        "citation": 1310,
+        "h_index": 2,
+        "p_index": 0.580241,
+        "g_index": 9
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 4,
+        "p_index": 0.68905,
+        "g_index": 7
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2016,
+        "paper": 146,
+        "citation": 730,
+        "h_index": 6,
+        "p_index": 0.493813,
+        "g_index": 14
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 7,
+        "p_index": 0.734151,
+        "g_index": 12
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2018,
+        "paper": 312,
+        "citation": 1560,
+        "h_index": 9,
+        "p_index": 0.330402,
+        "g_index": 19
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2019,
+        "paper": 470,
+        "citation": 2350,
+        "h_index": 11,
+        "p_index": 0.112808,
+        "g_index": 15
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2020,
+        "paper": 120,
+        "citation": 600,
+        "h_index": 11,
+        "p_index": 0.319641,
+        "g_index": 20
+    },
+    {
+        "name": "Hendrik Zender",
+        "year_num": 2021,
+        "paper": 598,
+        "citation": 2990,
+        "h_index": 13,
+        "p_index": 0.56353,
+        "g_index": 19
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2010,
+        "paper": 209,
+        "citation": 1045,
+        "h_index": 1,
+        "p_index": 0.290394,
+        "g_index": 6
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2011,
+        "paper": 246,
+        "citation": 1230,
+        "h_index": 1,
+        "p_index": 0.495131,
+        "g_index": 10
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2012,
+        "paper": 583,
+        "citation": 2915,
+        "h_index": 1,
+        "p_index": 0.585411,
+        "g_index": 7
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2013,
+        "paper": 21,
+        "citation": 105,
+        "h_index": 1,
+        "p_index": 0.348734,
+        "g_index": 10
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2014,
+        "paper": 477,
+        "citation": 2385,
+        "h_index": 1,
+        "p_index": 0.405356,
+        "g_index": 11
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2015,
+        "paper": 253,
+        "citation": 1265,
+        "h_index": 3,
+        "p_index": 0.338697,
+        "g_index": 10
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2016,
+        "paper": 548,
+        "citation": 2740,
+        "h_index": 5,
+        "p_index": 0.0386238,
+        "g_index": 9
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2017,
+        "paper": 297,
+        "citation": 1485,
+        "h_index": 7,
+        "p_index": 0.752731,
+        "g_index": 13
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2018,
+        "paper": 480,
+        "citation": 2400,
+        "h_index": 7,
+        "p_index": 0.102752,
+        "g_index": 14
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2019,
+        "paper": 148,
+        "citation": 740,
+        "h_index": 8,
+        "p_index": 0.509559,
+        "g_index": 15
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2020,
+        "paper": 179,
+        "citation": 895,
+        "h_index": 8,
+        "p_index": 0.420325,
+        "g_index": 13
+    },
+    {
+        "name": "Ielka Van Der Sluis",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 10,
+        "p_index": 0.575235,
+        "g_index": 16
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2010,
+        "paper": 132,
+        "citation": 660,
+        "h_index": 1,
+        "p_index": 0.87547,
+        "g_index": 11
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2011,
+        "paper": 208,
+        "citation": 1040,
+        "h_index": 1,
+        "p_index": 0.256557,
+        "g_index": 10
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2012,
+        "paper": 467,
+        "citation": 2335,
+        "h_index": 1,
+        "p_index": 0.981211,
+        "g_index": 5
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2013,
+        "paper": 84,
+        "citation": 420,
+        "h_index": 1,
+        "p_index": 0.109443,
+        "g_index": 9
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2014,
+        "paper": 298,
+        "citation": 1490,
+        "h_index": 2,
+        "p_index": 0.182879,
+        "g_index": 9
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2015,
+        "paper": 212,
+        "citation": 1060,
+        "h_index": 4,
+        "p_index": 0.49514,
+        "g_index": 14
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2016,
+        "paper": 471,
+        "citation": 2355,
+        "h_index": 6,
+        "p_index": 0.893664,
+        "g_index": 15
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2017,
+        "paper": 243,
+        "citation": 1215,
+        "h_index": 7,
+        "p_index": 0.949614,
+        "g_index": 16
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2018,
+        "paper": 175,
+        "citation": 875,
+        "h_index": 8,
+        "p_index": 0.936537,
+        "g_index": 11
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2019,
+        "paper": 407,
+        "citation": 2035,
+        "h_index": 8,
+        "p_index": 0.508758,
+        "g_index": 15
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2020,
+        "paper": 279,
+        "citation": 1395,
+        "h_index": 8,
+        "p_index": 0.541754,
+        "g_index": 18
+    },
+    {
+        "name": "Ivandr\u00e9 Paraboni",
+        "year_num": 2021,
+        "paper": 557,
+        "citation": 2785,
+        "h_index": 10,
+        "p_index": 0.0930272,
+        "g_index": 20
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2010,
+        "paper": 544,
+        "citation": 2720,
+        "h_index": 23,
+        "p_index": 0.969308,
+        "g_index": 31
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2011,
+        "paper": 581,
+        "citation": 2905,
+        "h_index": 24,
+        "p_index": 0.293023,
+        "g_index": 27
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2012,
+        "paper": 283,
+        "citation": 1415,
+        "h_index": 24,
+        "p_index": 0.362963,
+        "g_index": 27
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2013,
+        "paper": 565,
+        "citation": 2825,
+        "h_index": 24,
+        "p_index": 0.796335,
+        "g_index": 33
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2014,
+        "paper": 274,
+        "citation": 1370,
+        "h_index": 24,
+        "p_index": 0.665423,
+        "g_index": 29
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 24,
+        "p_index": 0.25985,
+        "g_index": 30
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 26,
+        "p_index": 0.228917,
+        "g_index": 35
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 27,
+        "p_index": 0.904662,
+        "g_index": 37
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 27,
+        "p_index": 0.3049,
+        "g_index": 36
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 28,
+        "p_index": 0.485976,
+        "g_index": 35
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 30,
+        "p_index": 0.322824,
+        "g_index": 35
+    },
+    {
+        "name": "J. H. Wearden",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 31,
+        "p_index": 0.671037,
+        "g_index": 35
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2010,
+        "paper": 322,
+        "citation": 1610,
+        "h_index": 12,
+        "p_index": 0.101872,
+        "g_index": 22
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2011,
+        "paper": 398,
+        "citation": 1990,
+        "h_index": 14,
+        "p_index": 0.930739,
+        "g_index": 23
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2012,
+        "paper": 532,
+        "citation": 2660,
+        "h_index": 15,
+        "p_index": 0.920128,
+        "g_index": 21
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2013,
+        "paper": 170,
+        "citation": 850,
+        "h_index": 15,
+        "p_index": 0.185698,
+        "g_index": 18
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2014,
+        "paper": 259,
+        "citation": 1295,
+        "h_index": 17,
+        "p_index": 0.618418,
+        "g_index": 22
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 18,
+        "p_index": 0.590986,
+        "g_index": 25
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 20,
+        "p_index": 0.451337,
+        "g_index": 25
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2017,
+        "paper": 596,
+        "citation": 2980,
+        "h_index": 20,
+        "p_index": 0.105794,
+        "g_index": 27
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2018,
+        "paper": 216,
+        "citation": 1080,
+        "h_index": 21,
+        "p_index": 0.910516,
+        "g_index": 31
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 21,
+        "p_index": 0.71057,
+        "g_index": 25
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2020,
+        "paper": 410,
+        "citation": 2050,
+        "h_index": 21,
+        "p_index": 0.578572,
+        "g_index": 27
+    },
+    {
+        "name": "Jaume Puig-Junoy",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.263784,
+        "g_index": 30
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2010,
+        "paper": 131,
+        "citation": 655,
+        "h_index": 1,
+        "p_index": 0.796591,
+        "g_index": 9
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2011,
+        "paper": 120,
+        "citation": 600,
+        "h_index": 1,
+        "p_index": 0.48496,
+        "g_index": 10
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2012,
+        "paper": 120,
+        "citation": 600,
+        "h_index": 3,
+        "p_index": 0.536392,
+        "g_index": 10
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2013,
+        "paper": 105,
+        "citation": 525,
+        "h_index": 4,
+        "p_index": 0.561356,
+        "g_index": 7
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 4,
+        "p_index": 0.894283,
+        "g_index": 8
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2015,
+        "paper": 258,
+        "citation": 1290,
+        "h_index": 6,
+        "p_index": 0.815233,
+        "g_index": 14
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2016,
+        "paper": 103,
+        "citation": 515,
+        "h_index": 7,
+        "p_index": 0.672182,
+        "g_index": 13
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2017,
+        "paper": 177,
+        "citation": 885,
+        "h_index": 7,
+        "p_index": 0.411126,
+        "g_index": 14
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 9,
+        "p_index": 0.673937,
+        "g_index": 15
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 11,
+        "p_index": 0.282691,
+        "g_index": 19
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 11,
+        "p_index": 0.270922,
+        "g_index": 15
+    },
+    {
+        "name": "Jeffrey Pomerantz",
+        "year_num": 2021,
+        "paper": 288,
+        "citation": 1440,
+        "h_index": 11,
+        "p_index": 0.836202,
+        "g_index": 15
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2010,
+        "paper": 535,
+        "citation": 2675,
+        "h_index": 1,
+        "p_index": 0.820804,
+        "g_index": 7
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 1,
+        "p_index": 0.950876,
+        "g_index": 9
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2012,
+        "paper": 387,
+        "citation": 1935,
+        "h_index": 2,
+        "p_index": 0.75579,
+        "g_index": 11
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2013,
+        "paper": 140,
+        "citation": 700,
+        "h_index": 3,
+        "p_index": 0.655438,
+        "g_index": 9
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2014,
+        "paper": 187,
+        "citation": 935,
+        "h_index": 5,
+        "p_index": 0.0374681,
+        "g_index": 13
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2015,
+        "paper": 432,
+        "citation": 2160,
+        "h_index": 5,
+        "p_index": 0.753807,
+        "g_index": 8
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2016,
+        "paper": 260,
+        "citation": 1300,
+        "h_index": 7,
+        "p_index": 0.808819,
+        "g_index": 11
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2017,
+        "paper": 599,
+        "citation": 2995,
+        "h_index": 8,
+        "p_index": 0.953716,
+        "g_index": 13
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2018,
+        "paper": 515,
+        "citation": 2575,
+        "h_index": 9,
+        "p_index": 0.767168,
+        "g_index": 13
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 9,
+        "p_index": 0.73042,
+        "g_index": 17
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2020,
+        "paper": 263,
+        "citation": 1315,
+        "h_index": 10,
+        "p_index": 0.522148,
+        "g_index": 17
+    },
+    {
+        "name": "Jette Viethen",
+        "year_num": 2021,
+        "paper": 429,
+        "citation": 2145,
+        "h_index": 10,
+        "p_index": 0.31912,
+        "g_index": 14
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 17,
+        "p_index": 0.49443,
+        "g_index": 24
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 18,
+        "p_index": 0.865129,
+        "g_index": 22
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2012,
+        "paper": 352,
+        "citation": 1760,
+        "h_index": 19,
+        "p_index": 0.607166,
+        "g_index": 22
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 21,
+        "p_index": 0.74922,
+        "g_index": 31
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2014,
+        "paper": 572,
+        "citation": 2860,
+        "h_index": 22,
+        "p_index": 0.272564,
+        "g_index": 26
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2015,
+        "paper": 402,
+        "citation": 2010,
+        "h_index": 23,
+        "p_index": 0.219548,
+        "g_index": 28
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2016,
+        "paper": 466,
+        "citation": 2330,
+        "h_index": 24,
+        "p_index": 0.566691,
+        "g_index": 33
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2017,
+        "paper": 423,
+        "citation": 2115,
+        "h_index": 24,
+        "p_index": 0.901096,
+        "g_index": 31
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 26,
+        "p_index": 0.212458,
+        "g_index": 29
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 27,
+        "p_index": 0.808799,
+        "g_index": 37
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 28,
+        "p_index": 0.813361,
+        "g_index": 35
+    },
+    {
+        "name": "Jiabing Hu",
+        "year_num": 2021,
+        "paper": 373,
+        "citation": 1865,
+        "h_index": 28,
+        "p_index": 0.600474,
+        "g_index": 34
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 43,
+        "p_index": 0.936043,
+        "g_index": 47
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 44,
+        "p_index": 0.420685,
+        "g_index": 53
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 45,
+        "p_index": 0.504728,
+        "g_index": 48
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 45,
+        "p_index": 0.889282,
+        "g_index": 48
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2014,
+        "paper": 558,
+        "citation": 2790,
+        "h_index": 47,
+        "p_index": 0.528982,
+        "g_index": 55
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 47,
+        "p_index": 0.113994,
+        "g_index": 57
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 49,
+        "p_index": 0.35088,
+        "g_index": 55
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 50,
+        "p_index": 0.910172,
+        "g_index": 59
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 52,
+        "p_index": 0.0410447,
+        "g_index": 62
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 53,
+        "p_index": 0.856267,
+        "g_index": 56
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 53,
+        "p_index": 0.129556,
+        "g_index": 61
+    },
+    {
+        "name": "Kathleen R. Mckeown",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 53,
+        "p_index": 0.461268,
+        "g_index": 63
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2010,
+        "paper": 502,
+        "citation": 2510,
+        "h_index": 12,
+        "p_index": 0.299215,
+        "g_index": 15
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2011,
+        "paper": 443,
+        "citation": 2215,
+        "h_index": 14,
+        "p_index": 0.751165,
+        "g_index": 17
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 15,
+        "p_index": 0.724496,
+        "g_index": 20
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2013,
+        "paper": 596,
+        "citation": 2980,
+        "h_index": 17,
+        "p_index": 0.0721449,
+        "g_index": 22
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2014,
+        "paper": 322,
+        "citation": 1610,
+        "h_index": 17,
+        "p_index": 0.405925,
+        "g_index": 24
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 17,
+        "p_index": 0.0978845,
+        "g_index": 27
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2016,
+        "paper": 579,
+        "citation": 2895,
+        "h_index": 19,
+        "p_index": 0.0757878,
+        "g_index": 28
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2017,
+        "paper": 599,
+        "citation": 2995,
+        "h_index": 19,
+        "p_index": 0.301159,
+        "g_index": 22
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2018,
+        "paper": 405,
+        "citation": 2025,
+        "h_index": 21,
+        "p_index": 0.862094,
+        "g_index": 31
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 22,
+        "p_index": 0.367342,
+        "g_index": 31
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.157449,
+        "g_index": 31
+    },
+    {
+        "name": "Kees Van Deemter",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 24,
+        "p_index": 0.764227,
+        "g_index": 33
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.0679625,
+        "g_index": 35
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2011,
+        "paper": 541,
+        "citation": 2705,
+        "h_index": 27,
+        "p_index": 0.614862,
+        "g_index": 31
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 27,
+        "p_index": 0.545924,
+        "g_index": 31
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 28,
+        "p_index": 0.362151,
+        "g_index": 38
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 28,
+        "p_index": 0.312143,
+        "g_index": 32
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 28,
+        "p_index": 0.869427,
+        "g_index": 35
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 29,
+        "p_index": 0.154098,
+        "g_index": 37
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2017,
+        "paper": 311,
+        "citation": 1555,
+        "h_index": 30,
+        "p_index": 0.315362,
+        "g_index": 39
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 32,
+        "p_index": 0.310572,
+        "g_index": 36
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2019,
+        "paper": 586,
+        "citation": 2930,
+        "h_index": 33,
+        "p_index": 0.481026,
+        "g_index": 37
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 34,
+        "p_index": 0.82997,
+        "g_index": 42
+    },
+    {
+        "name": "Lars Birkedal",
+        "year_num": 2021,
+        "paper": 450,
+        "citation": 2250,
+        "h_index": 35,
+        "p_index": 0.865471,
+        "g_index": 44
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2010,
+        "paper": 222,
+        "citation": 1110,
+        "h_index": 1,
+        "p_index": 0.181932,
+        "g_index": 7
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2011,
+        "paper": 468,
+        "citation": 2340,
+        "h_index": 1,
+        "p_index": 0.784883,
+        "g_index": 8
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2012,
+        "paper": 21,
+        "citation": 105,
+        "h_index": 1,
+        "p_index": 0.897668,
+        "g_index": 11
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2013,
+        "paper": 387,
+        "citation": 1935,
+        "h_index": 1,
+        "p_index": 0.986898,
+        "g_index": 11
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2014,
+        "paper": 338,
+        "citation": 1690,
+        "h_index": 1,
+        "p_index": 0.589556,
+        "g_index": 8
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2015,
+        "paper": 71,
+        "citation": 355,
+        "h_index": 1,
+        "p_index": 0.36813,
+        "g_index": 7
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2016,
+        "paper": 166,
+        "citation": 830,
+        "h_index": 3,
+        "p_index": 0.122366,
+        "g_index": 9
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2017,
+        "paper": 419,
+        "citation": 2095,
+        "h_index": 4,
+        "p_index": 0.561874,
+        "g_index": 13
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2018,
+        "paper": 371,
+        "citation": 1855,
+        "h_index": 5,
+        "p_index": 0.567386,
+        "g_index": 10
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2019,
+        "paper": 214,
+        "citation": 1070,
+        "h_index": 6,
+        "p_index": 0.306867,
+        "g_index": 11
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2020,
+        "paper": 424,
+        "citation": 2120,
+        "h_index": 8,
+        "p_index": 0.587686,
+        "g_index": 16
+    },
+    {
+        "name": "Laszlo Nemes",
+        "year_num": 2021,
+        "paper": 117,
+        "citation": 585,
+        "h_index": 8,
+        "p_index": 0.172533,
+        "g_index": 17
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2010,
+        "paper": 455,
+        "citation": 2275,
+        "h_index": 2,
+        "p_index": 0.0471206,
+        "g_index": 5
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2011,
+        "paper": 243,
+        "citation": 1215,
+        "h_index": 2,
+        "p_index": 0.705591,
+        "g_index": 9
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2012,
+        "paper": 331,
+        "citation": 1655,
+        "h_index": 2,
+        "p_index": 0.862804,
+        "g_index": 8
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2013,
+        "paper": 232,
+        "citation": 1160,
+        "h_index": 2,
+        "p_index": 0.358951,
+        "g_index": 10
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2014,
+        "paper": 441,
+        "citation": 2205,
+        "h_index": 2,
+        "p_index": 0.652337,
+        "g_index": 8
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2015,
+        "paper": 320,
+        "citation": 1600,
+        "h_index": 2,
+        "p_index": 0.879178,
+        "g_index": 8
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2016,
+        "paper": 326,
+        "citation": 1630,
+        "h_index": 2,
+        "p_index": 0.394275,
+        "g_index": 8
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2017,
+        "paper": 51,
+        "citation": 255,
+        "h_index": 3,
+        "p_index": 0.413144,
+        "g_index": 7
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2018,
+        "paper": 313,
+        "citation": 1565,
+        "h_index": 5,
+        "p_index": 0.780558,
+        "g_index": 10
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2019,
+        "paper": 558,
+        "citation": 2790,
+        "h_index": 7,
+        "p_index": 0.774582,
+        "g_index": 14
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2020,
+        "paper": 508,
+        "citation": 2540,
+        "h_index": 8,
+        "p_index": 0.79979,
+        "g_index": 13
+    },
+    {
+        "name": "Lynne Cahill",
+        "year_num": 2021,
+        "paper": 224,
+        "citation": 1120,
+        "h_index": 9,
+        "p_index": 0.287269,
+        "g_index": 19
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2010,
+        "paper": 112,
+        "citation": 560,
+        "h_index": 1,
+        "p_index": 0.768301,
+        "g_index": 6
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2011,
+        "paper": 101,
+        "citation": 505,
+        "h_index": 1,
+        "p_index": 0.826871,
+        "g_index": 11
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2012,
+        "paper": 574,
+        "citation": 2870,
+        "h_index": 2,
+        "p_index": 0.0265794,
+        "g_index": 6
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2013,
+        "paper": 458,
+        "citation": 2290,
+        "h_index": 3,
+        "p_index": 0.551115,
+        "g_index": 7
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2014,
+        "paper": 572,
+        "citation": 2860,
+        "h_index": 3,
+        "p_index": 0.789855,
+        "g_index": 9
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2015,
+        "paper": 254,
+        "citation": 1270,
+        "h_index": 4,
+        "p_index": 0.506804,
+        "g_index": 8
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2016,
+        "paper": 189,
+        "citation": 945,
+        "h_index": 6,
+        "p_index": 0.587243,
+        "g_index": 15
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2017,
+        "paper": 542,
+        "citation": 2710,
+        "h_index": 8,
+        "p_index": 0.212715,
+        "g_index": 12
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2018,
+        "paper": 136,
+        "citation": 680,
+        "h_index": 8,
+        "p_index": 0.0189234,
+        "g_index": 13
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2019,
+        "paper": 434,
+        "citation": 2170,
+        "h_index": 9,
+        "p_index": 0.895176,
+        "g_index": 13
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2020,
+        "paper": 550,
+        "citation": 2750,
+        "h_index": 9,
+        "p_index": 0.891341,
+        "g_index": 18
+    },
+    {
+        "name": "M Goldacre",
+        "year_num": 2021,
+        "paper": 583,
+        "citation": 2915,
+        "h_index": 11,
+        "p_index": 0.957169,
+        "g_index": 14
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2010,
+        "paper": 580,
+        "citation": 2900,
+        "h_index": 1,
+        "p_index": 0.766208,
+        "g_index": 10
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2011,
+        "paper": 274,
+        "citation": 1370,
+        "h_index": 1,
+        "p_index": 0.825797,
+        "g_index": 10
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2012,
+        "paper": 168,
+        "citation": 840,
+        "h_index": 1,
+        "p_index": 0.812808,
+        "g_index": 4
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2013,
+        "paper": 112,
+        "citation": 560,
+        "h_index": 2,
+        "p_index": 0.827977,
+        "g_index": 9
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2014,
+        "paper": 280,
+        "citation": 1400,
+        "h_index": 2,
+        "p_index": 0.482858,
+        "g_index": 9
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2015,
+        "paper": 589,
+        "citation": 2945,
+        "h_index": 2,
+        "p_index": 0.475967,
+        "g_index": 5
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2016,
+        "paper": 252,
+        "citation": 1260,
+        "h_index": 3,
+        "p_index": 0.282157,
+        "g_index": 6
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2017,
+        "paper": 290,
+        "citation": 1450,
+        "h_index": 3,
+        "p_index": 0.285312,
+        "g_index": 8
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2018,
+        "paper": 523,
+        "citation": 2615,
+        "h_index": 4,
+        "p_index": 0.583947,
+        "g_index": 9
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2019,
+        "paper": 493,
+        "citation": 2465,
+        "h_index": 6,
+        "p_index": 0.392636,
+        "g_index": 11
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2020,
+        "paper": 437,
+        "citation": 2185,
+        "h_index": 8,
+        "p_index": 0.924196,
+        "g_index": 11
+    },
+    {
+        "name": "M. Brignole",
+        "year_num": 2021,
+        "paper": 582,
+        "citation": 2910,
+        "h_index": 9,
+        "p_index": 0.10763,
+        "g_index": 17
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2010,
+        "paper": 457,
+        "citation": 2285,
+        "h_index": 5,
+        "p_index": 0.369409,
+        "g_index": 9
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2011,
+        "paper": 541,
+        "citation": 2705,
+        "h_index": 5,
+        "p_index": 0.173304,
+        "g_index": 8
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2012,
+        "paper": 195,
+        "citation": 975,
+        "h_index": 6,
+        "p_index": 0.766378,
+        "g_index": 12
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2013,
+        "paper": 98,
+        "citation": 490,
+        "h_index": 6,
+        "p_index": 0.0832296,
+        "g_index": 9
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2014,
+        "paper": 143,
+        "citation": 715,
+        "h_index": 7,
+        "p_index": 0.910908,
+        "g_index": 15
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2015,
+        "paper": 150,
+        "citation": 750,
+        "h_index": 9,
+        "p_index": 0.553674,
+        "g_index": 12
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2016,
+        "paper": 245,
+        "citation": 1225,
+        "h_index": 11,
+        "p_index": 0.996057,
+        "g_index": 19
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 13,
+        "p_index": 0.572707,
+        "g_index": 19
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 15,
+        "p_index": 0.665504,
+        "g_index": 23
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2019,
+        "paper": 168,
+        "citation": 840,
+        "h_index": 16,
+        "p_index": 0.238381,
+        "g_index": 23
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2020,
+        "paper": 214,
+        "citation": 1070,
+        "h_index": 18,
+        "p_index": 0.933313,
+        "g_index": 27
+    },
+    {
+        "name": "Mari\u00ebt Theune",
+        "year_num": 2021,
+        "paper": 518,
+        "citation": 2590,
+        "h_index": 18,
+        "p_index": 0.546845,
+        "g_index": 22
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 57,
+        "p_index": 0.187021,
+        "g_index": 60
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 58,
+        "p_index": 0.632401,
+        "g_index": 64
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 60,
+        "p_index": 0.722696,
+        "g_index": 63
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 60,
+        "p_index": 0.616909,
+        "g_index": 63
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 61,
+        "p_index": 0.729305,
+        "g_index": 65
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 63,
+        "p_index": 0.456169,
+        "g_index": 69
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 64,
+        "p_index": 0.138664,
+        "g_index": 69
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 64,
+        "p_index": 0.300507,
+        "g_index": 67
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 64,
+        "p_index": 0.785906,
+        "g_index": 74
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 65,
+        "p_index": 0.253783,
+        "g_index": 69
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 65,
+        "p_index": 0.786553,
+        "g_index": 70
+    },
+    {
+        "name": "Mark Crovella",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 67,
+        "p_index": 0.941353,
+        "g_index": 73
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2010,
+        "paper": 71,
+        "citation": 355,
+        "h_index": 2,
+        "p_index": 0.395959,
+        "g_index": 11
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2011,
+        "paper": 195,
+        "citation": 975,
+        "h_index": 3,
+        "p_index": 0.115863,
+        "g_index": 7
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2012,
+        "paper": 555,
+        "citation": 2775,
+        "h_index": 3,
+        "p_index": 0.725483,
+        "g_index": 13
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2013,
+        "paper": 377,
+        "citation": 1885,
+        "h_index": 5,
+        "p_index": 0.682675,
+        "g_index": 9
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2014,
+        "paper": 526,
+        "citation": 2630,
+        "h_index": 6,
+        "p_index": 0.663272,
+        "g_index": 12
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2015,
+        "paper": 534,
+        "citation": 2670,
+        "h_index": 6,
+        "p_index": 0.270173,
+        "g_index": 11
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2016,
+        "paper": 478,
+        "citation": 2390,
+        "h_index": 8,
+        "p_index": 0.637146,
+        "g_index": 17
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2017,
+        "paper": 379,
+        "citation": 1895,
+        "h_index": 8,
+        "p_index": 0.370134,
+        "g_index": 18
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 9,
+        "p_index": 0.935637,
+        "g_index": 17
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2019,
+        "paper": 288,
+        "citation": 1440,
+        "h_index": 10,
+        "p_index": 0.0503842,
+        "g_index": 19
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2020,
+        "paper": 596,
+        "citation": 2980,
+        "h_index": 10,
+        "p_index": 0.964678,
+        "g_index": 14
+    },
+    {
+        "name": "Mike Reape",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 10,
+        "p_index": 0.530136,
+        "g_index": 16
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.100422,
+        "g_index": 31
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 24,
+        "p_index": 0.376154,
+        "g_index": 28
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2012,
+        "paper": 337,
+        "citation": 1685,
+        "h_index": 24,
+        "p_index": 0.039771,
+        "g_index": 34
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2013,
+        "paper": 442,
+        "citation": 2210,
+        "h_index": 25,
+        "p_index": 0.915826,
+        "g_index": 30
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 26,
+        "p_index": 0.253335,
+        "g_index": 36
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2015,
+        "paper": 305,
+        "citation": 1525,
+        "h_index": 28,
+        "p_index": 0.903476,
+        "g_index": 38
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2016,
+        "paper": 598,
+        "citation": 2990,
+        "h_index": 30,
+        "p_index": 0.164615,
+        "g_index": 33
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2017,
+        "paper": 463,
+        "citation": 2315,
+        "h_index": 30,
+        "p_index": 0.165157,
+        "g_index": 35
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2018,
+        "paper": 346,
+        "citation": 1730,
+        "h_index": 31,
+        "p_index": 0.181546,
+        "g_index": 34
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2019,
+        "paper": 416,
+        "citation": 2080,
+        "h_index": 31,
+        "p_index": 0.606272,
+        "g_index": 39
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2020,
+        "paper": 580,
+        "citation": 2900,
+        "h_index": 31,
+        "p_index": 0.363459,
+        "g_index": 36
+    },
+    {
+        "name": "Murray, Andrew S.",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 31,
+        "p_index": 0.41686,
+        "g_index": 38
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2010,
+        "paper": 43,
+        "citation": 215,
+        "h_index": 1,
+        "p_index": 0.824498,
+        "g_index": 6
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2011,
+        "paper": 16,
+        "citation": 80,
+        "h_index": 1,
+        "p_index": 0.20894,
+        "g_index": 6
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2012,
+        "paper": 454,
+        "citation": 2270,
+        "h_index": 1,
+        "p_index": 0.612261,
+        "g_index": 9
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2013,
+        "paper": 561,
+        "citation": 2805,
+        "h_index": 1,
+        "p_index": 0.243408,
+        "g_index": 10
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2014,
+        "paper": 298,
+        "citation": 1490,
+        "h_index": 1,
+        "p_index": 0.747878,
+        "g_index": 10
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2015,
+        "paper": 496,
+        "citation": 2480,
+        "h_index": 2,
+        "p_index": 0.92584,
+        "g_index": 6
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2016,
+        "paper": 109,
+        "citation": 545,
+        "h_index": 2,
+        "p_index": 0.0683179,
+        "g_index": 12
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2017,
+        "paper": 402,
+        "citation": 2010,
+        "h_index": 4,
+        "p_index": 0.500463,
+        "g_index": 10
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2018,
+        "paper": 439,
+        "citation": 2195,
+        "h_index": 6,
+        "p_index": 0.891373,
+        "g_index": 9
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2019,
+        "paper": 273,
+        "citation": 1365,
+        "h_index": 8,
+        "p_index": 0.266279,
+        "g_index": 17
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2020,
+        "paper": 262,
+        "citation": 1310,
+        "h_index": 10,
+        "p_index": 0.852447,
+        "g_index": 17
+    },
+    {
+        "name": "Nikos Tzevelekos",
+        "year_num": 2021,
+        "paper": 478,
+        "citation": 2390,
+        "h_index": 12,
+        "p_index": 0.20949,
+        "g_index": 17
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.944897,
+        "g_index": 19
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.203061,
+        "g_index": 19
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.190505,
+        "g_index": 17
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2013,
+        "paper": 161,
+        "citation": 805,
+        "h_index": 14,
+        "p_index": 0.8482,
+        "g_index": 20
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2014,
+        "paper": 404,
+        "citation": 2020,
+        "h_index": 14,
+        "p_index": 0.749125,
+        "g_index": 21
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 14,
+        "p_index": 0.530829,
+        "g_index": 17
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 15,
+        "p_index": 0.279092,
+        "g_index": 24
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2017,
+        "paper": 523,
+        "citation": 2615,
+        "h_index": 15,
+        "p_index": 0.0641676,
+        "g_index": 25
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2018,
+        "paper": 543,
+        "citation": 2715,
+        "h_index": 15,
+        "p_index": 0.126683,
+        "g_index": 24
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2019,
+        "paper": 414,
+        "citation": 2070,
+        "h_index": 15,
+        "p_index": 0.0436109,
+        "g_index": 24
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 16,
+        "p_index": 0.305411,
+        "g_index": 19
+    },
+    {
+        "name": "Peter Bernus",
+        "year_num": 2021,
+        "paper": 367,
+        "citation": 1835,
+        "h_index": 17,
+        "p_index": 0.922957,
+        "g_index": 26
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2010,
+        "paper": 548,
+        "citation": 2740,
+        "h_index": 1,
+        "p_index": 0.330843,
+        "g_index": 11
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 1,
+        "p_index": 0.83912,
+        "g_index": 6
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2012,
+        "paper": 303,
+        "citation": 1515,
+        "h_index": 2,
+        "p_index": 0.467039,
+        "g_index": 5
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2013,
+        "paper": 64,
+        "citation": 320,
+        "h_index": 2,
+        "p_index": 0.761229,
+        "g_index": 6
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2014,
+        "paper": 418,
+        "citation": 2090,
+        "h_index": 2,
+        "p_index": 0.79361,
+        "g_index": 6
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2015,
+        "paper": 172,
+        "citation": 860,
+        "h_index": 3,
+        "p_index": 0.974551,
+        "g_index": 6
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2016,
+        "paper": 496,
+        "citation": 2480,
+        "h_index": 4,
+        "p_index": 0.460835,
+        "g_index": 10
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2017,
+        "paper": 264,
+        "citation": 1320,
+        "h_index": 6,
+        "p_index": 0.00055216,
+        "g_index": 13
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2018,
+        "paper": 535,
+        "citation": 2675,
+        "h_index": 8,
+        "p_index": 0.0222055,
+        "g_index": 15
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2019,
+        "paper": 550,
+        "citation": 2750,
+        "h_index": 10,
+        "p_index": 0.632743,
+        "g_index": 14
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2020,
+        "paper": 196,
+        "citation": 980,
+        "h_index": 11,
+        "p_index": 0.484363,
+        "g_index": 16
+    },
+    {
+        "name": "R. David Lankes",
+        "year_num": 2021,
+        "paper": 160,
+        "citation": 800,
+        "h_index": 12,
+        "p_index": 0.566559,
+        "g_index": 21
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 40,
+        "p_index": 0.598402,
+        "g_index": 48
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 40,
+        "p_index": 0.59732,
+        "g_index": 47
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 42,
+        "p_index": 0.636457,
+        "g_index": 45
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 43,
+        "p_index": 0.787143,
+        "g_index": 52
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2014,
+        "paper": 581,
+        "citation": 2905,
+        "h_index": 43,
+        "p_index": 0.260093,
+        "g_index": 46
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 43,
+        "p_index": 0.487034,
+        "g_index": 50
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 44,
+        "p_index": 0.163808,
+        "g_index": 52
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 44,
+        "p_index": 0.200199,
+        "g_index": 48
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 46,
+        "p_index": 0.101342,
+        "g_index": 52
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 47,
+        "p_index": 0.321069,
+        "g_index": 54
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 48,
+        "p_index": 0.891125,
+        "g_index": 55
+    },
+    {
+        "name": "Remus Teodorescu",
+        "year_num": 2021,
+        "paper": 507,
+        "citation": 2535,
+        "h_index": 48,
+        "p_index": 0.396761,
+        "g_index": 56
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2010,
+        "paper": 366,
+        "citation": 1830,
+        "h_index": 1,
+        "p_index": 0.0277328,
+        "g_index": 5
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2011,
+        "paper": 325,
+        "citation": 1625,
+        "h_index": 1,
+        "p_index": 0.95944,
+        "g_index": 10
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2012,
+        "paper": 576,
+        "citation": 2880,
+        "h_index": 1,
+        "p_index": 0.949325,
+        "g_index": 10
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2013,
+        "paper": 472,
+        "citation": 2360,
+        "h_index": 3,
+        "p_index": 0.0663334,
+        "g_index": 7
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2014,
+        "paper": 99,
+        "citation": 495,
+        "h_index": 4,
+        "p_index": 0.00726129,
+        "g_index": 11
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2015,
+        "paper": 176,
+        "citation": 880,
+        "h_index": 4,
+        "p_index": 0.820289,
+        "g_index": 12
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 6,
+        "p_index": 0.215085,
+        "g_index": 12
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2017,
+        "paper": 124,
+        "citation": 620,
+        "h_index": 8,
+        "p_index": 0.0228991,
+        "g_index": 17
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2018,
+        "paper": 570,
+        "citation": 2850,
+        "h_index": 10,
+        "p_index": 0.518275,
+        "g_index": 20
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2019,
+        "paper": 347,
+        "citation": 1735,
+        "h_index": 10,
+        "p_index": 0.501256,
+        "g_index": 15
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2020,
+        "paper": 582,
+        "citation": 2910,
+        "h_index": 12,
+        "p_index": 0.446155,
+        "g_index": 15
+    },
+    {
+        "name": "Robert Dale",
+        "year_num": 2021,
+        "paper": 160,
+        "citation": 800,
+        "h_index": 12,
+        "p_index": 0.545214,
+        "g_index": 16
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2010,
+        "paper": 556,
+        "citation": 2780,
+        "h_index": 1,
+        "p_index": 0.216806,
+        "g_index": 10
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2011,
+        "paper": 20,
+        "citation": 100,
+        "h_index": 1,
+        "p_index": 0.635462,
+        "g_index": 8
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2012,
+        "paper": 303,
+        "citation": 1515,
+        "h_index": 2,
+        "p_index": 0.652995,
+        "g_index": 12
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2013,
+        "paper": 333,
+        "citation": 1665,
+        "h_index": 2,
+        "p_index": 0.141087,
+        "g_index": 8
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2014,
+        "paper": 519,
+        "citation": 2595,
+        "h_index": 4,
+        "p_index": 0.550446,
+        "g_index": 14
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2015,
+        "paper": 56,
+        "citation": 280,
+        "h_index": 5,
+        "p_index": 0.277181,
+        "g_index": 8
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2016,
+        "paper": 319,
+        "citation": 1595,
+        "h_index": 5,
+        "p_index": 0.165273,
+        "g_index": 8
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2017,
+        "paper": 201,
+        "citation": 1005,
+        "h_index": 7,
+        "p_index": 0.197064,
+        "g_index": 11
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2018,
+        "paper": 484,
+        "citation": 2420,
+        "h_index": 9,
+        "p_index": 0.83073,
+        "g_index": 19
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2019,
+        "paper": 306,
+        "citation": 1530,
+        "h_index": 11,
+        "p_index": 0.761837,
+        "g_index": 21
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 11,
+        "p_index": 0.933766,
+        "g_index": 14
+    },
+    {
+        "name": "Rodger Kibble",
+        "year_num": 2021,
+        "paper": 269,
+        "citation": 1345,
+        "h_index": 12,
+        "p_index": 0.140175,
+        "g_index": 20
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2010,
+        "paper": 336,
+        "citation": 1680,
+        "h_index": 3,
+        "p_index": 0.244126,
+        "g_index": 9
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2011,
+        "paper": 565,
+        "citation": 2825,
+        "h_index": 3,
+        "p_index": 0.217226,
+        "g_index": 9
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2012,
+        "paper": 233,
+        "citation": 1165,
+        "h_index": 3,
+        "p_index": 0.991177,
+        "g_index": 12
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2013,
+        "paper": 523,
+        "citation": 2615,
+        "h_index": 4,
+        "p_index": 0.119963,
+        "g_index": 11
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2014,
+        "paper": 381,
+        "citation": 1905,
+        "h_index": 6,
+        "p_index": 0.547789,
+        "g_index": 13
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2015,
+        "paper": 396,
+        "citation": 1980,
+        "h_index": 7,
+        "p_index": 0.105648,
+        "g_index": 15
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2016,
+        "paper": 530,
+        "citation": 2650,
+        "h_index": 8,
+        "p_index": 0.315131,
+        "g_index": 17
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2017,
+        "paper": 482,
+        "citation": 2410,
+        "h_index": 9,
+        "p_index": 0.667444,
+        "g_index": 17
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2018,
+        "paper": 248,
+        "citation": 1240,
+        "h_index": 11,
+        "p_index": 0.531751,
+        "g_index": 16
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2019,
+        "paper": 385,
+        "citation": 1925,
+        "h_index": 11,
+        "p_index": 0.77541,
+        "g_index": 15
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2020,
+        "paper": 311,
+        "citation": 1555,
+        "h_index": 12,
+        "p_index": 0.663354,
+        "g_index": 21
+    },
+    {
+        "name": "Roger Evans",
+        "year_num": 2021,
+        "paper": 402,
+        "citation": 2010,
+        "h_index": 12,
+        "p_index": 0.872439,
+        "g_index": 19
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 88,
+        "p_index": 0.733049,
+        "g_index": 92
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2011,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.526636,
+        "g_index": 93
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.386,
+        "g_index": 92
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.205112,
+        "g_index": 93
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.225868,
+        "g_index": 96
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.975251,
+        "g_index": 93
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.963254,
+        "g_index": 92
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.219729,
+        "g_index": 95
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.777169,
+        "g_index": 97
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 89,
+        "p_index": 0.301157,
+        "g_index": 92
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 91,
+        "p_index": 0.267247,
+        "g_index": 100
+    },
+    {
+        "name": "Ronald N. Jones",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 93,
+        "p_index": 0.718435,
+        "g_index": 102
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2010,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 12,
+        "p_index": 0.923905,
+        "g_index": 22
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2011,
+        "paper": 295,
+        "citation": 1475,
+        "h_index": 12,
+        "p_index": 0.598428,
+        "g_index": 16
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2012,
+        "paper": 304,
+        "citation": 1520,
+        "h_index": 13,
+        "p_index": 0.784124,
+        "g_index": 17
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2013,
+        "paper": 418,
+        "citation": 2090,
+        "h_index": 15,
+        "p_index": 0.461459,
+        "g_index": 25
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2014,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 17,
+        "p_index": 0.596437,
+        "g_index": 22
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2015,
+        "paper": 263,
+        "citation": 1315,
+        "h_index": 17,
+        "p_index": 0.312045,
+        "g_index": 22
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 19,
+        "p_index": 0.699427,
+        "g_index": 27
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 20,
+        "p_index": 0.720161,
+        "g_index": 26
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2018,
+        "paper": 239,
+        "citation": 1195,
+        "h_index": 21,
+        "p_index": 0.981589,
+        "g_index": 28
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2019,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 21,
+        "p_index": 0.143628,
+        "g_index": 30
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2020,
+        "paper": 275,
+        "citation": 1375,
+        "h_index": 23,
+        "p_index": 0.118227,
+        "g_index": 26
+    },
+    {
+        "name": "Saavedra Places, \u00c1ngeles",
+        "year_num": 2021,
+        "paper": 273,
+        "citation": 1365,
+        "h_index": 25,
+        "p_index": 0.551134,
+        "g_index": 31
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2010,
+        "paper": 33,
+        "citation": 165,
+        "h_index": 1,
+        "p_index": 0.622429,
+        "g_index": 5
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2011,
+        "paper": 491,
+        "citation": 2455,
+        "h_index": 1,
+        "p_index": 0.904336,
+        "g_index": 7
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2012,
+        "paper": 189,
+        "citation": 945,
+        "h_index": 1,
+        "p_index": 0.997681,
+        "g_index": 10
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2013,
+        "paper": 342,
+        "citation": 1710,
+        "h_index": 1,
+        "p_index": 0.759172,
+        "g_index": 4
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2014,
+        "paper": 330,
+        "citation": 1650,
+        "h_index": 2,
+        "p_index": 0.613099,
+        "g_index": 9
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2015,
+        "paper": 163,
+        "citation": 815,
+        "h_index": 2,
+        "p_index": 0.10035,
+        "g_index": 12
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2016,
+        "paper": 308,
+        "citation": 1540,
+        "h_index": 3,
+        "p_index": 0.147182,
+        "g_index": 9
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2017,
+        "paper": 400,
+        "citation": 2000,
+        "h_index": 5,
+        "p_index": 0.571598,
+        "g_index": 14
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2018,
+        "paper": 329,
+        "citation": 1645,
+        "h_index": 6,
+        "p_index": 0.698639,
+        "g_index": 12
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2019,
+        "paper": 439,
+        "citation": 2195,
+        "h_index": 7,
+        "p_index": 0.617075,
+        "g_index": 15
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 8,
+        "p_index": 0.360212,
+        "g_index": 18
+    },
+    {
+        "name": "Sebastian Varges",
+        "year_num": 2021,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 10,
+        "p_index": 0.0237187,
+        "g_index": 19
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2010,
+        "paper": 360,
+        "citation": 1800,
+        "h_index": 1,
+        "p_index": 0.48206,
+        "g_index": 9
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2011,
+        "paper": 227,
+        "citation": 1135,
+        "h_index": 1,
+        "p_index": 0.389105,
+        "g_index": 9
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2012,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 1,
+        "p_index": 0.0393668,
+        "g_index": 9
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2013,
+        "paper": 439,
+        "citation": 2195,
+        "h_index": 1,
+        "p_index": 0.435704,
+        "g_index": 8
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2014,
+        "paper": 185,
+        "citation": 925,
+        "h_index": 1,
+        "p_index": 0.896375,
+        "g_index": 7
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2015,
+        "paper": 307,
+        "citation": 1535,
+        "h_index": 1,
+        "p_index": 0.981986,
+        "g_index": 9
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2016,
+        "paper": 84,
+        "citation": 420,
+        "h_index": 1,
+        "p_index": 0.208525,
+        "g_index": 8
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2017,
+        "paper": 213,
+        "citation": 1065,
+        "h_index": 3,
+        "p_index": 0.784628,
+        "g_index": 13
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2018,
+        "paper": 265,
+        "citation": 1325,
+        "h_index": 5,
+        "p_index": 0.387144,
+        "g_index": 15
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2019,
+        "paper": 197,
+        "citation": 985,
+        "h_index": 7,
+        "p_index": 0.281336,
+        "g_index": 17
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2020,
+        "paper": 415,
+        "citation": 2075,
+        "h_index": 8,
+        "p_index": 0.787642,
+        "g_index": 14
+    },
+    {
+        "name": "Srinivasan Janarthanam",
+        "year_num": 2021,
+        "paper": 195,
+        "citation": 975,
+        "h_index": 9,
+        "p_index": 0.65723,
+        "g_index": 13
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2010,
+        "paper": 42,
+        "citation": 210,
+        "h_index": 1,
+        "p_index": 0.562454,
+        "g_index": 10
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2011,
+        "paper": 20,
+        "citation": 100,
+        "h_index": 1,
+        "p_index": 0.572842,
+        "g_index": 9
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2012,
+        "paper": 43,
+        "citation": 215,
+        "h_index": 1,
+        "p_index": 0.411572,
+        "g_index": 5
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2013,
+        "paper": 258,
+        "citation": 1290,
+        "h_index": 1,
+        "p_index": 0.596543,
+        "g_index": 7
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2014,
+        "paper": 433,
+        "citation": 2165,
+        "h_index": 1,
+        "p_index": 0.741533,
+        "g_index": 8
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2015,
+        "paper": 323,
+        "citation": 1615,
+        "h_index": 1,
+        "p_index": 0.0513455,
+        "g_index": 7
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2016,
+        "paper": 298,
+        "citation": 1490,
+        "h_index": 1,
+        "p_index": 0.0651941,
+        "g_index": 4
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2017,
+        "paper": 154,
+        "citation": 770,
+        "h_index": 1,
+        "p_index": 0.922339,
+        "g_index": 9
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2018,
+        "paper": 542,
+        "citation": 2710,
+        "h_index": 1,
+        "p_index": 0.78054,
+        "g_index": 5
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2019,
+        "paper": 155,
+        "citation": 775,
+        "h_index": 1,
+        "p_index": 0.950862,
+        "g_index": 8
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2020,
+        "paper": 386,
+        "citation": 1930,
+        "h_index": 1,
+        "p_index": 0.874441,
+        "g_index": 5
+    },
+    {
+        "name": "Sundus Kubba",
+        "year_num": 2021,
+        "paper": 252,
+        "citation": 1260,
+        "h_index": 3,
+        "p_index": 0.252537,
+        "g_index": 9
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2010,
+        "paper": 155,
+        "citation": 775,
+        "h_index": 1,
+        "p_index": 0.510671,
+        "g_index": 8
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2011,
+        "paper": 136,
+        "citation": 680,
+        "h_index": 1,
+        "p_index": 0.40977,
+        "g_index": 8
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2012,
+        "paper": 393,
+        "citation": 1965,
+        "h_index": 1,
+        "p_index": 0.167504,
+        "g_index": 8
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2013,
+        "paper": 325,
+        "citation": 1625,
+        "h_index": 3,
+        "p_index": 0.054245,
+        "g_index": 9
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2014,
+        "paper": 149,
+        "citation": 745,
+        "h_index": 3,
+        "p_index": 0.597284,
+        "g_index": 7
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2015,
+        "paper": 129,
+        "citation": 645,
+        "h_index": 5,
+        "p_index": 0.309447,
+        "g_index": 12
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2016,
+        "paper": 272,
+        "citation": 1360,
+        "h_index": 7,
+        "p_index": 0.711314,
+        "g_index": 10
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2017,
+        "paper": 420,
+        "citation": 2100,
+        "h_index": 8,
+        "p_index": 0.0194586,
+        "g_index": 17
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 9,
+        "p_index": 0.664615,
+        "g_index": 16
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2019,
+        "paper": 496,
+        "citation": 2480,
+        "h_index": 11,
+        "p_index": 0.844117,
+        "g_index": 19
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2020,
+        "paper": 272,
+        "citation": 1360,
+        "h_index": 12,
+        "p_index": 0.682583,
+        "g_index": 20
+    },
+    {
+        "name": "Tetsuya Hirose",
+        "year_num": 2021,
+        "paper": 211,
+        "citation": 1055,
+        "h_index": 12,
+        "p_index": 0.431067,
+        "g_index": 15
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2010,
+        "paper": 552,
+        "citation": 2760,
+        "h_index": 12,
+        "p_index": 0.473481,
+        "g_index": 22
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2011,
+        "paper": 489,
+        "citation": 2445,
+        "h_index": 14,
+        "p_index": 0.575399,
+        "g_index": 23
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2012,
+        "paper": 204,
+        "citation": 1020,
+        "h_index": 14,
+        "p_index": 0.694889,
+        "g_index": 17
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2013,
+        "paper": 457,
+        "citation": 2285,
+        "h_index": 16,
+        "p_index": 0.393856,
+        "g_index": 20
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2014,
+        "paper": 511,
+        "citation": 2555,
+        "h_index": 18,
+        "p_index": 0.764197,
+        "g_index": 23
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2015,
+        "paper": 405,
+        "citation": 2025,
+        "h_index": 20,
+        "p_index": 0.809073,
+        "g_index": 24
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2016,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 21,
+        "p_index": 0.0674649,
+        "g_index": 31
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2017,
+        "paper": 370,
+        "citation": 1850,
+        "h_index": 22,
+        "p_index": 0.0378404,
+        "g_index": 25
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2018,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 23,
+        "p_index": 0.394648,
+        "g_index": 33
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2019,
+        "paper": 381,
+        "citation": 1905,
+        "h_index": 23,
+        "p_index": 0.334862,
+        "g_index": 26
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 25,
+        "p_index": 0.56008,
+        "g_index": 29
+    },
+    {
+        "name": "Varshney Rajeev K",
+        "year_num": 2021,
+        "paper": 303,
+        "citation": 1515,
+        "h_index": 25,
+        "p_index": 0.531263,
+        "g_index": 33
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2010,
+        "paper": 252,
+        "citation": 1260,
+        "h_index": 9,
+        "p_index": 0.483617,
+        "g_index": 19
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2011,
+        "paper": 355,
+        "citation": 1775,
+        "h_index": 10,
+        "p_index": 0.452545,
+        "g_index": 17
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2012,
+        "paper": 458,
+        "citation": 2290,
+        "h_index": 10,
+        "p_index": 0.553697,
+        "g_index": 14
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2013,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 11,
+        "p_index": 0.994583,
+        "g_index": 16
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2014,
+        "paper": 347,
+        "citation": 1735,
+        "h_index": 13,
+        "p_index": 0.492299,
+        "g_index": 23
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2015,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 15,
+        "p_index": 0.431549,
+        "g_index": 18
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2016,
+        "paper": 274,
+        "citation": 1370,
+        "h_index": 17,
+        "p_index": 0.479049,
+        "g_index": 20
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2017,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 18,
+        "p_index": 0.732735,
+        "g_index": 24
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2018,
+        "paper": 289,
+        "citation": 1445,
+        "h_index": 19,
+        "p_index": 0.115812,
+        "g_index": 25
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2019,
+        "paper": 377,
+        "citation": 1885,
+        "h_index": 20,
+        "p_index": 0.326301,
+        "g_index": 26
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2020,
+        "paper": 600,
+        "citation": 3000,
+        "h_index": 21,
+        "p_index": 0.146256,
+        "g_index": 31
+    },
+    {
+        "name": "Yikang He",
+        "year_num": 2021,
+        "paper": 290,
+        "citation": 1450,
+        "h_index": 23,
+        "p_index": 0.0693464,
+        "g_index": 33
+    }
+]
